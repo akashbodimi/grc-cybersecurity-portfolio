@@ -1,0 +1,13 @@
+# Local/editor files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+.env
+*.pem
+*.key
+*secret*
+*password*
