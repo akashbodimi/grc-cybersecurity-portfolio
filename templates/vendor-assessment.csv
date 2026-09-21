@@ -1,0 +1,2 @@
+Vendor ID,Vendor Name,Criticality,Data Sensitivity,Service,Certification Evidence,Questionnaire Result,Risk Score,Open Findings,Risk Owner,Decision,Reassessment Date,Notes
+V-001,Example Vendor,High,Confidential,Example SaaS,ISO/SOC evidence,Pending,0,0,Example Owner,Pending,YYYY-MM-DD,
