@@ -1,0 +1,9 @@
+Gap ID,Control ID,Requirement/Objective,Current State,Expected State,Gap Description,Related Risk,Priority,Recommended Action,Status
+G-01,CTRL-01,Controlled policy review and approval,Policy exists but approval evidence is inconsistent,Documented review approval and version history,Governance evidence is incomplete,R-01,High,Implement annual review workflow,Open
+G-02,CTRL-02,Relevant threat intelligence is reviewed,Informal sources,Defined sources owner cadence and record,No formal review process,R-02,Medium,Create threat-intelligence review process,Open
+G-03,CTRL-03,Access rights are reviewed,Reviews occur inconsistently,Quarterly review with approvals and exceptions,Certification evidence is incomplete,R-03,High,Implement quarterly access certification,Open
+G-04,CTRL-05,Supplier security risk is managed,Vendor reviews vary,Standardized risk-tiered due diligence,No consistent criticality model,R-05,High,Implement TPRM tiering,Open
+G-05,CTRL-06,Cloud security responsibilities are defined,Responsibilities understood informally,Documented control ownership matrix,Shared-responsibility mapping incomplete,R-06,High,Create cloud control matrix,Open
+G-06,CTRL-08,ICT recovery readiness is demonstrated,Backups exist but testing is incomplete,Documented RTO/RPO and restore evidence,Recovery evidence incomplete,R-08,High,Run restore tests and map RTO/RPO,Open
+G-07,CTRL-10,Vulnerabilities are remediated according to risk,Scanning occurs but ageing/exception tracking varies,Defined SLA and risk-acceptance workflow,Remediation governance inconsistent,R-10,High,Implement vulnerability SLA and exception process,Open
+G-08,CTRL-11,Security logging requirements are defined,Central logging covers selected systems,Documented coverage and retention requirements,No formal coverage matrix,R-11,Medium,Create logging coverage matrix,Open
