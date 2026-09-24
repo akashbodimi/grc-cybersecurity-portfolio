@@ -23,7 +23,7 @@ This portfolio demonstrates hands-on work across:
 
 | Project | Skills demonstrated | Status |
 |---|---|---|
-| [01 — ISO 27001 Gap Assessment](projects/01-iso27001-gap-assessment/) | ISO 27001, gap analysis, controls, remediation | Planned |
+| [01 — ISO 27001 Gap Assessment](projects/01-iso27001-gap-assessment/) | ISO 27001, gap analysis, controls, remediation | **Completed — Simulated** |
 | [02 — Cyber Risk Register & Dashboard](projects/02-risk-register-dashboard/) | Risk assessment, scoring, treatment, KPIs/KRIs | Planned |
 | [03 — ITGC Control Testing](projects/03-itgc-control-testing/) | ITGC, ToD/ToE, evidence testing, findings | Planned |
 | [04 — Third-Party Risk Assessment](projects/04-third-party-risk/) | TPRM, questionnaires, vendor scoring, remediation | Planned |
@@ -32,9 +32,13 @@ This portfolio demonstrates hands-on work across:
 | [07 — Cloud GRC Assessment](projects/07-cloud-grc/) | Shared responsibility, cloud controls, evidence | Planned |
 | [08 — AI Governance Assessment](projects/08-ai-governance/) | AI risk, NIST AI RMF, ISO 42001 concepts | Planned |
 
-## How each project is structured
+## Completed project: ISO 27001 Gap Assessment
 
-**Business context → Scope → Requirements → Risks → Controls → Evidence → Testing → Findings → Remediation → Reporting**
+The first completed project demonstrates an end-to-end simulated GRC workflow:
+
+**Scope → Requirements → Controls → Evidence → Assessment → Risks → Findings → Remediation → Validation**
+
+It includes a control matrix, risk register, evidence index, gap assessment, findings log, remediation roadmap and executive summary.
 
 ## Evidence standard
 
