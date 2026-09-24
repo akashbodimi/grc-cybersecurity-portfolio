@@ -1,0 +1,16 @@
+Evidence ID,Control ID,Evidence Name,Description,Owner,Period,Source,Expected Quality,Assessment Result,Notes
+EV-001,CTRL-01,Information Security Policy,Approved policy document,ISMS Owner,Q3 2026,Policy repository,Approved/current,Available,Approval evidence needs stronger retention
+EV-002,CTRL-02,Threat Intelligence Review Log,Periodic review of relevant threat sources,Security Lead,Q3 2026,Security workspace,Complete and dated,Not Available,Gap identified
+EV-003,CTRL-03,Access Review Export,User/role access review evidence,IAM Owner,Q3 2026,Identity platform,Complete and approved,Partial,Review cadence evidence incomplete
+EV-004,CTRL-04,Offboarding Tickets,Sample leaver tickets showing access removal,IT Operations,Q3 2026,Ticketing system,Traceable and complete,Partial,Evidence fragmented
+EV-005,CTRL-05,Vendor Due Diligence,Security assessment for critical suppliers,Procurement + Security,Q3 2026,TPRM repository,Risk-based and current,Partial,No consistent tiering
+EV-006,CTRL-06,Cloud Responsibility Matrix,Control ownership between provider and customer,Cloud Owner,Q3 2026,Cloud documentation,Approved and current,Partial,Mapping incomplete
+EV-007,CTRL-07,Incident Response Procedure,Approved incident response procedure,Security Lead,Q3 2026,Policy repository,Approved/current,Available,Tabletop evidence limited
+EV-008,CTRL-08,Restore Test Evidence,Backup restore test and result,BCM Owner,Q3 2026,Backup platform,Successful and dated,Partial,Restore evidence incomplete
+EV-009,CTRL-09,Training Completion Report,Security awareness completion,HR + Security,Q3 2026,LMS,Complete and dated,Available,Role-specific training limited
+EV-010,CTRL-10,Vulnerability Scan Summary,Current vulnerability results,Vulnerability Owner,Q3 2026,Vulnerability platform,Current and traceable,Available,Ageing/exception tracking weak
+EV-011,CTRL-11,SIEM Coverage Sample,Log-source coverage and retention evidence,Security Operations,Q3 2026,SIEM,Complete and current,Partial,Coverage matrix needed
+EV-012,CTRL-12,Monitoring Escalation Procedure,Monitoring hours and escalation process,Security Operations,Q3 2026,SOC documentation,Approved/current,Partial,After-hours process needs clarification
+EV-013,CTRL-13,Encryption Configuration,Cloud encryption configuration evidence,Cloud Owner,Q3 2026,Cloud console export,Current and traceable,Available,Key management documentation needs improvement
+EV-014,CTRL-14,Change Tickets,Approved production change samples,IT Operations,Q3 2026,Ticketing system,Traceable and approved,Available,Emergency classification inconsistent
+EV-015,CTRL-15,Temporary Access Tickets,Time-bound audit access approvals,IAM Owner,Q3 2026,Identity/ticketing system,Expiry traceable,Partial,Expiry evidence inconsistent
