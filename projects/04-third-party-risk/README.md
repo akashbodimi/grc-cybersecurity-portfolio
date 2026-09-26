@@ -30,7 +30,7 @@ The assessment demonstrates how vendor risk should be driven by service critical
 
 ## Deliverables
 
-- [TPRM Vendor Risk Assessment — Excel](./TPRM_Vendor_Risk_Assessment_Northstar.xlsx)
+- **TPRM Vendor Risk Assessment — Excel:** upload `TPRM_Vendor_Risk_Assessment_Northstar.xlsx` to this folder after downloading the workbook from this chat.
 - [TPRM Methodology](./tprm-methodology.md)
 - [Vendor Inventory](./vendor-inventory.csv)
 - [Vendor Security Questionnaire](./vendor-security-questionnaire.csv)
