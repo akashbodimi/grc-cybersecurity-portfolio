@@ -1,98 +1,81 @@
-# ISO/IEC 27001:2022 Gap Assessment
+# ISO 27001:2022 Gap Assessment
 
-**Status:** Completed simulated portfolio project
+**Status:** Completed — simulated project
 
-## Executive overview
+## What this project is
 
-This project demonstrates a simulated internal gap-assessment workflow for a fictional B2B SaaS company. The assessment maps selected ISO/IEC 27001:2022 control objectives to current-state assumptions, evidence, risks, gaps and remediation actions.
+I used a fictional SaaS company, **Northstar Cloud Services Pvt. Ltd.**, to practice an ISO 27001:2022 gap assessment.
 
-> **Important:** Northstar Cloud Services Pvt. Ltd. is fictional. This project is not a certification audit, legal opinion, or assessment of a real organization.
+The idea was simple: take a set of security controls, look at what evidence should exist, compare it with the simulated current state, record the gaps and then turn those gaps into risks and remediation actions.
 
-## Scenario
+> Northstar is fictional. This is portfolio work only. It is not a certification audit, legal opinion or assessment of a real company.
 
-**Northstar Cloud Services Pvt. Ltd.** is a fictional India-based B2B SaaS provider with approximately 85 employees, a remote/hybrid workforce, cloud infrastructure, customer support, engineering, sales and third-party SaaS dependencies.
+## Scope
 
-## What I demonstrated
+The assessment covers:
 
-- Defined an assessment scope and assumptions
-- Identified information assets and security processes
-- Mapped selected ISO 27001:2022 control objectives
-- Built a control assessment matrix
-- Defined expected evidence and evaluated evidence availability
+- Information-security governance
+- Identity and access management
+- Cloud security
+- Vulnerability management
+- Logging and monitoring
+- Incident-response preparation
+- Business continuity / ICT readiness
+- Security awareness
+- Cryptography
+- Supplier security
+
+**Assessment period:** Q3 2026
+
+## What I worked on
+
+- Defined the assessment scope and assumptions
+- Mapped selected ISO 27001:2022 Annex A controls
+- Built a control matrix
+- Listed the evidence needed for each control
+- Recorded gaps where the simulated evidence was missing or incomplete
 - Built a risk register with inherent and residual risk
-- Documented control gaps and findings
-- Created a risk-based remediation roadmap
-- Produced an executive summary
+- Created findings and remediation actions
+- Wrote a short management summary
 
-## Assessment workflow
+## Assessment flow
 
-**Scope → Requirements → Controls → Evidence → Assessment → Risks → Findings → Remediation → Validation**
+**Scope → Controls → Evidence → Gap → Risk → Finding → Remediation → Validation**
 
-## Key portfolio artifacts
+One thing I kept consistent throughout the project was the treatment of missing evidence: I did not assume a control was working just because a process was described. Missing or weak evidence was recorded as such.
 
-| Artifact | Purpose |
-|---|---|
-| [scope.md](scope.md) | Defines organization, scope, assumptions and limitations |
-| [control-matrix.csv](control-matrix.csv) | Maps selected controls to current state, evidence, gaps and actions |
-| [gap-assessment.csv](gap-assessment.csv) | Summarizes identified gaps |
-| [risk-register.csv](risk-register.csv) | Records simulated risks and treatment |
-| [evidence-index.csv](evidence-index.csv) | Tracks evidence expected for each control |
-| [findings-log.csv](findings-log.csv) | Documents audit-style findings |
-| [remediation-plan.md](remediation-plan.md) | Prioritizes remediation actions |
-| [executive-summary.md](executive-summary.md) | Management-level summary |
+## Key results
 
-## Sample assessment result
+The simulated assessment covered **15 controls** and produced **8 findings**.
 
-The simulated assessment identified recurring governance and evidence weaknesses around:
+The main issues were around:
 
-- Access recertification and offboarding
-- Third-party security due diligence
+- Access review and offboarding evidence
+- Risk-based supplier due diligence
 - Cloud shared-responsibility ownership
-- Vulnerability remediation governance
-- Business continuity and restore testing
-- Logging coverage and retention
+- Vulnerability remediation tracking
+- Recovery and restore testing
+- Logging coverage
 - Threat-intelligence review
 
-The exercise deliberately treats missing evidence as **Not Evidenced** rather than assuming a control exists.
+## Files
 
-## GRC skills demonstrated
+- [Excel workpaper](./ISO27001_Gap_Assessment_Northstar.xlsx)
+- [Scope](./scope.md)
+- [Control Matrix](./control-matrix.csv)
+- [Gap Assessment](./gap-assessment.csv)
+- [Risk Register](./risk-register.csv)
+- [Evidence Index](./evidence-index.csv)
+- [Findings Log](./findings-log.csv)
+- [Remediation Plan](./remediation-plan.md)
+- [Executive Summary](./executive-summary.md)
 
-**Frameworks:** ISO/IEC 27001:2022
+## Skills shown
 
-**Risk:** Risk identification, likelihood/impact scoring, inherent vs residual risk, treatment planning
+**ISO 27001:2022 · Gap Assessment · Risk Assessment · Control Mapping · Evidence Review · Findings · Remediation · Audit Documentation · Management Reporting**
 
-**Compliance:** Gap assessment, control mapping, evidence management
+## What I learned
 
-**Audit:** Evidence evaluation, findings, remediation and validation criteria
+The biggest takeaway for me was that GRC work is not just about knowing a framework. The difficult part is connecting a requirement to a control, then being able to show evidence that the control is actually being followed.
 
-**Governance:** Control ownership, due dates, accountability and management reporting
-
-## Interview talking points
-
-### How did you assess a control?
-
-I started with the control objective, identified what evidence would demonstrate that the control was designed and operating, compared the simulated current state with the expected state, and documented the resulting gap and risk.
-
-### How did you handle missing evidence?
-
-I did not assume the control was operating simply because the organization claimed it existed. I recorded the evidence as unavailable or partial and documented the limitation.
-
-### How did you prioritize remediation?
-
-I considered the simulated likelihood and impact, the weakness in the control, evidence quality and potential business exposure. Higher-risk gaps were placed into earlier remediation windows.
-
-### What makes a finding useful?
-
-A useful finding clearly connects the condition to a requirement/control expectation, explains the risk or impact, identifies an owner and recommends a specific remediation that can later be validated.
-
-## Lessons learned
-
-- GRC is not only about knowing frameworks; it is about translating requirements into repeatable controls and evidence.
-- Evidence quality is a critical part of assurance work.
-- Risk helps prioritize remediation instead of treating every gap equally.
-- Clear ownership and validation make remediation measurable.
-- Executive reporting should summarize business impact rather than simply list controls.
-
-## Limitations
-
-The organization, evidence and results are synthetic. No real customer, employer or proprietary information is used.
+> All facts, evidence and results in this project are fictional.
