@@ -2,46 +2,54 @@
 
 **Status:** Completed — simulated audit environment
 
-## Objective
+## What this project is
 
-Demonstrate basic IT General Controls testing across access management, change management and IT operations.
+I used a fictional SaaS company to practice testing common IT General Controls.
 
-## Test structure
+The focus is on three areas:
+
+- Access management
+- Change management
+- IT operations
+
+## How I tested the controls
+
+For each sample, I followed a simple structure:
 
 **Control → Risk → Objective → Population → Sample → Evidence → Test Procedure → Result → Exception → Conclusion**
 
-## Example controls
+I also separated:
 
-- Joiner/mover/leaver access
+**Test of Design (ToD)** — does the control address the risk?
+
+**Test of Effectiveness (ToE)** — did the control operate as expected?
+
+## Controls covered
+
+- Joiner / mover / leaver access
 - Periodic access review
 - Privileged access
+- Password policy
 - Change approval
-- Emergency change
+- Emergency changes
 - Backup execution
 - Restore testing
 - Job monitoring
-- Password policy
 - Segregation of Duties
 
-## Testing concepts
+## Files
 
-**Test of Design (ToD):** Does the control, as designed, address the relevant risk?
-
-**Test of Effectiveness (ToE):** Did the control operate as intended over the review period?
-
-## Deliverables
-
-- [ITGC Control Testing Workpaper — Excel](./ITGC_Control_Testing_Workpaper_Northstar.xlsx)
+- [Excel workpaper](./ITGC_Control_Testing_Workpaper_Northstar.xlsx)
 - [ITGC Control Matrix](./deliverables/ITGC_Control_Matrix.csv)
-- [Sample Workpaper — AC-01 JML Access](./deliverables/Sample_Workpaper_AC-01_JML_Access.md)
-- [Sample Workpaper — CH-01 Change Approval](./deliverables/Sample_Workpaper_CH-01_Change_Approval.md)
+- [Sample Workpaper — JML Access](./deliverables/Sample_Workpaper_AC-01_JML_Access.md)
+- [Sample Workpaper — Change Approval](./deliverables/Sample_Workpaper_CH-01_Change_Approval.md)
 - [Evidence Index](./deliverables/Evidence_Index.csv)
 - [Findings Log](./deliverables/Findings_Log.csv)
 - [Remediation Tracker](./deliverables/Remediation_Tracker.csv)
 - [Executive Audit Summary](./deliverables/Executive_Audit_Summary.md)
 
-## Skills demonstrated
+## Skills shown
 
 **ITGC · Access Controls · Change Management · Backup/Operations Controls · ToD/ToE · Evidence Evaluation · Audit Sampling · Findings · Remediation**
 
-> This project is simulated portfolio work. The company, populations, samples and evidence are fictional and do not represent a real client or audit engagement.
+> The company, populations, samples and evidence are fictional. This is a portfolio exercise, not a real audit.
