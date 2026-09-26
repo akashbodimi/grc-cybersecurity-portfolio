@@ -1,49 +1,39 @@
 # Executive Summary — Third-Party Risk Assessment
 
-**Entity:** Northstar Cloud Services Pvt. Ltd.  
-**Vendor assessed:** BluePeak Cloud Monitoring Pvt. Ltd.  
-**Review period:** September 2026  
-**Engagement type:** Simulated TPRM due-diligence exercise
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Vendor:** BluePeak Cloud Monitoring Pvt. Ltd. (fictional)  
+**Period:** September 2026  
+**Type:** Simulated TPRM assessment
 
-> Fictional portfolio work. This is not a real vendor assessment, procurement decision or assurance opinion.
+## What I reviewed
 
-## Objective
+I took the vendor through a simple TPRM process:
 
-Demonstrate a repeatable TPRM assessment from vendor intake through risk tiering, due diligence, evidence review, findings, remediation and residual-risk decisioning.
+**Intake → Risk Rating → Questionnaire → Evidence Review → Findings → Remediation → Residual Risk**
 
-## Assessment Summary
+The questionnaire had 25 questions and the review used 12 sample evidence records.
 
-BluePeak Cloud Monitoring was classified as **Critical inherent risk (23/25)** because of production integration, operational dependency, security telemetry exposure and the potential sensitivity of the service.
+## Risk result
 
-The assessment reviewed 25 security/privacy questionnaire items and 12 evidence artifacts.
+BluePeak scored **23/25 (Critical)** for inherent risk.
 
-## Key Findings
+The main reasons were its production integration, operational importance and the type of security data involved.
 
-| Risk | Finding | Status |
-|---|---|---|
-| High | Admin MFA evidence incomplete | Open |
-| Medium | Current penetration-test evidence not supplied | Open |
-| Medium | Subprocessor notification process not evidenced | Open |
-| High | Secure deletion evidence missing | Open |
+After reviewing the controls and open issues, the simulated residual risk was **18/25 (High)**.
 
-## Management Interpretation
+## Findings
 
-The simulated evidence base is sufficient to demonstrate a baseline security program, but the outstanding items affect confidence in privileged access assurance and data lifecycle controls.
+| Severity | Finding |
+|---|---|
+| High | Admin MFA evidence incomplete |
+| Medium | Current penetration-test evidence not supplied |
+| Medium | Subprocessor change-notification process not evidenced |
+| High | Secure deletion evidence missing |
 
-The residual risk was assessed as **High (18/25)** after the control/evidence review.
+## What I would require
 
-## Recommended Treatment
+In this exercise I would keep the vendor under **conditional approval** until the two high-priority issues are addressed and the evidence is checked again.
 
-Proceed only under **conditional approval with restrictions** in the simulation. Require high-priority remediation before unrestricted production access or processing, and validate the evidence before reducing the residual-risk assessment.
+The main lesson here is that a completed questionnaire is not enough. I need evidence that supports the answers and a way to track the gaps until they are closed.
 
-## Lessons Demonstrated
-
-- Vendor criticality should be determined before questionnaire depth.
-- Questionnaire responses are assertions; evidence increases assurance.
-- Findings should map directly to missing or insufficient control evidence.
-- Risk acceptance should be explicit when remediation is incomplete.
-- Reassessment should occur after remediation, not simply on the original review date.
-
-## Deliverables
-
-The folder contains the vendor inventory, TPRM methodology, security questionnaire, evidence review, evidence index, risk assessment, findings log, remediation tracker and vendor decision memo.
+> All vendors, evidence, scores and decisions are fictional.
