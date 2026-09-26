@@ -1,0 +1,11 @@
+Evidence ID,Control ID,Artifact,Description,Owner,Period,Status,Reviewer Note
+EV-IAM-001,IAM-01,HR lifecycle ticket,Approved joiner event,HR,Q3 2026,Received,Supports provisioning authorization
+EV-IAM-002,IAM-01,IAM event log,Mover access-change record,IAM,Q3 2026,Received,Timing exception identified
+EV-IAM-003,IAM-02,Access review export,CRM quarterly user population,CRM Owner,Q3 2026,Received,Supports review population
+EV-IAM-004,IAM-02,Owner sign-off,CRM review approval,CRM Owner,Q3 2026,Received,Supports certification
+EV-IAM-005,IAM-03,Privileged inventory,Administrative account list,Security Admin,Q3 2026,Received,Population evidence
+EV-IAM-006,IAM-03,MFA configuration,Backup admin authentication setting,Infrastructure,Q3 2026,Partial,MFA exception remains open
+EV-IAM-007,IAM-06,SoD conflict report,Finance and ITSM conflict report,GRC,Q3 2026,Received,Multiple conflicts identified
+EV-IAM-008,IAM-07,Service account inventory,Named owners and business purpose,Platform Owner,Q3 2026,Received,Supports accountability
+EV-IAM-009,IAM-08,Temporary access exception,Approval and expiry record,IAM Manager,Q3 2026,Received,Review expiry controls
+EV-IAM-010,IAM-05,RBAC matrix,Approved role-to-permission mapping,Application Owners,Q3 2026,Received,Supports least privilege
