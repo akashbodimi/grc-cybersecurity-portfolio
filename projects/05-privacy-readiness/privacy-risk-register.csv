@@ -1,0 +1,11 @@
+Risk ID,Activity ID,Privacy Risk,Data Impact,Likelihood,Inherent Score,Risk Tier,Existing Controls,Treatment,Owner,Status
+PR-001,PIA-003,Behavioral analytics may collect more data than necessary for stated purposes.,5,4,20,Critical,Pseudonymisation; access control,Reduce,Privacy Lead,Open
+PR-002,PIA-010,Optional analytics cookies may be deployed without demonstrable preference records.,4,4,16,High,CMP; consent logs,Reduce,Web Product Owner,Open
+PR-003,PIA-009,Vendor records may be retained without a defined lifecycle.,3,3,9,Medium,Evidence repository,Reduce,Procurement Lead,Open
+PR-004,PIA-006,Applicant records may remain beyond the intended retention period.,3,3,9,Medium,ATS retention controls,Reduce,HR Lead,In Progress
+PR-005,PIA-007,Security logs may contain identifiers retained longer than operational need.,4,2,8,Medium,SIEM lifecycle policy,Monitor,SOC Manager,Open
+PR-006,PIA-002,Support tickets or attachments may contain unexpected personal data.,4,3,12,High,Ticket permissions; logging,Reduce,Support Ops,Open
+PR-007,PIA-001,Excessive account attributes may be visible to people without a business need.,3,2,6,Medium,RBAC; MFA,Monitor,IAM Manager,Closed
+PR-008,PIA-004,Marketing preference changes may not reach all downstream systems.,4,3,12,High,Preference center,Reduce,Marketing Ops,Open
+PR-009,PIA-005,HR records may be accessible outside the restricted HR administrator group.,5,2,10,Medium,RBAC; restricted access,Reduce,HR Systems Owner,Open
+PR-010,PIA-008,Billing records may be retained in multiple systems without coordinated deletion rules.,4,3,12,High,Access controls; audit trail,Reduce,Finance Systems Owner,Open
