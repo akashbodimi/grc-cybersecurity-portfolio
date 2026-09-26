@@ -1,34 +1,43 @@
 # IAM Governance & Access Review
 
-**Status:** Completed — simulated identity environment
+**Status:** Completed — simulated project
 
-## Objective
+## What this project is
 
-Demonstrate practical Identity and Access Management (IAM) governance across identity lifecycle, RBAC, least privilege, privileged access, periodic access recertification and segregation of duties.
+This project is a practical IAM governance exercise using a fictional SaaS company.
 
-## Case Study
+I focused on the parts of IAM that usually matter in a GRC or IT audit review: who has access, why they have it, who approved it, whether it is reviewed and whether conflicting access exists.
 
-The project uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS company. All accounts, access decisions, evidence and findings are simulated.
+## What I worked on
 
-## Workflow
+- Built an RBAC role matrix
+- Reviewed joiner / mover / leaver activity
+- Looked at privileged accounts
+- Reviewed MFA governance
+- Performed a sample access recertification
+- Checked segregation-of-duties conflicts
+- Indexed supporting evidence
+- Logged findings and remediation actions
 
-**Role Model → JML → Access Request → Provisioning → Periodic Review → Privileged Review → SoD Analysis → Exceptions → Remediation → Validation**
+## Assessment flow
 
-## Deliverables
+**Role Model → JML → Access Request → Provisioning → Periodic Review → Privileged Review → SoD → Remediation → Validation**
 
-- [IAM Governance & Access Review — Excel](./IAM_Governance_Access_Review_Northstar.xlsx)
+## Files
+
+- [Excel workpaper](./IAM_Governance_Access_Review_Northstar.xlsx)
 - [IAM Methodology](./iam-methodology.md)
 - [RBAC Role Matrix](./rbac-role-matrix.csv)
-- [Access Review Sample Workpaper](./access-review-sample.md)
+- [Access Review Sample](./access-review-sample.md)
 - [SoD Analysis](./sod-analysis.md)
 - [Evidence Index](./evidence-index.csv)
 - [Findings Log](./findings-log.csv)
 - [Remediation Tracker](./remediation-tracker.csv)
-- [Executive IAM Governance Summary](./executive-summary.md)
-- [Reference Sources](./sources.md)
+- [Executive Summary](./executive-summary.md)
+- [Sources](./sources.md)
 
-## Skills Demonstrated
+## Skills shown
 
-**IAM Governance · RBAC · Least Privilege · Joiner/Mover/Leaver · Access Recertification · Privileged Access · MFA Governance · Segregation of Duties · Evidence Review · Findings · Remediation · Executive Reporting**
+**IAM Governance · RBAC · Least Privilege · JML · Access Recertification · Privileged Access · MFA · SoD · Evidence Review · Remediation**
 
-> This project is simulated portfolio work. It does not represent real client experience, production administration or an assurance opinion.
+> All accounts, access decisions and evidence are fictional. This is a portfolio exercise, not production IAM administration.
