@@ -1,40 +1,49 @@
 # Portfolio Build Guide
 
-## Recruiter-facing standard
+## What I want each project to show
 
-A recruiter should understand each project in about 60–90 seconds.
+A recruiter should be able to open a project and understand it quickly.
 
-Put these items near the top of every project README:
-1. Business scenario
-2. Objective
-3. Scope
-4. Frameworks / requirements
-5. Work performed
-6. Key findings
-7. Remediation
-8. Artifacts
-9. Skills demonstrated
+At the top of the README, keep these things clear:
 
-## Never fake production experience
+1. What the scenario is
+2. What I was trying to do
+3. What I actually worked on
+4. What I found
+5. What I recommended
+6. What files are included
+7. What skills the project shows
 
-Use labels such as:
-- Simulated assessment
-- Lab project
-- Fictional company
-- Home lab
+## Keep the work realistic
 
-Do not describe fictional work as an employer or client engagement.
+The projects in this repository are fictional. I should always call them **simulated**, **lab** or **portfolio** work.
 
-## Strong GRC evidence
+I should not describe a fictional company as an employer or client, and I should not imply that a workbook came from a real audit.
 
-A strong project creates a traceable chain:
+## Show the working, not just the result
 
-**Requirement / risk → control objective → control → evidence → test → finding → remediation → validation**
+The useful part of a GRC portfolio is the trail:
 
-## Security hygiene
+**Requirement / Risk → Control → Evidence → Assessment → Finding → Remediation → Validation**
 
-Never publish passwords, API keys, tokens, private certificates, customer data, employer documents or proprietary screenshots.
+A spreadsheet with a score is not enough on its own. The reader should be able to see why the score was given and what evidence was used.
 
-## Suggested showcase
+## Keep the writing simple
 
-Once projects are genuinely completed, feature your strongest repositories on your GitHub profile. Prioritize quality and evidence over repository count.
+Avoid phrases that sound like marketing copy or generic AI-generated text.
+
+For example, prefer:
+
+> I reviewed 15 sample controls and recorded the evidence gaps.
+
+over:
+
+> This project demonstrates a comprehensive end-to-end control assurance capability.
+
+## Security
+
+Never publish passwords, API keys, tokens, private certificates, customer data, employer documents or confidential screenshots.
+
+## Portfolio quality
+
+I would rather have eight clear projects with real supporting files than twenty small projects with almost no evidence.
