@@ -1,45 +1,54 @@
 # DPDP / GDPR Privacy Readiness Assessment
 
-**Status:** Completed — simulated privacy GRC assessment
+**Status:** Completed — simulated project
 
-## Objective
+## What this project is
 
-Demonstrate practical privacy governance readiness by mapping business processing activities to privacy requirements, risk, evidence, safeguards, rights operations and remediation.
+I created a fictional SaaS company and mapped its main personal-data processing activities to privacy risks, controls, evidence and remediation.
 
-## Case Study
+The project covers both **DPDP** and selected **GDPR** concepts. It is meant to show how I would organise privacy work from a GRC point of view.
 
-The project uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS company with customer, employee, applicant, vendor and website processing.
+> This is not legal advice or a statement that a real company is compliant.
 
-The work is designed to demonstrate privacy GRC capability without claiming legal compliance or professional legal advice.
+## What I worked on
 
-## Workflow
+- Built a data inventory / ROPA-style register
+- Recorded purpose, data subjects, data categories and retention
+- Identified privacy risks
+- Built a sample DPIA
+- Added a rights-request tracker
+- Created a retention and deletion schedule
+- Reviewed processor / subprocessor governance
+- Created a privacy gap assessment
+- Added remediation tracking
+- Drafted a sample privacy notice
 
-**Data Inventory → Purpose / Basis → Privacy Risk → DPIA → Rights & Transparency → Retention → Processor Governance → Gap Assessment → Remediation → Validation**
+## Assessment flow
 
-## Deliverables
+**Data Inventory → Purpose / Basis → Privacy Risk → DPIA → Rights → Retention → Processor Review → Gap → Remediation → Validation**
 
-- [Privacy Readiness Assessment — Excel](./Privacy_Readiness_Assessment_Northstar.xlsx)
+## Main case study
+
+The product-analytics activity was used as the main DPIA example. The review looks at data minimisation, optional analytics, retention, third-party processing and reassessment triggers.
+
+## Files
+
+- [Excel workpaper](./Privacy_Readiness_Assessment_Northstar.xlsx)
 - [Privacy Methodology](./privacy-methodology.md)
-- [Data Inventory / ROPA-style Register](./data-inventory.csv)
+- [Data Inventory](./data-inventory.csv)
 - [Privacy Risk Register](./privacy-risk-register.csv)
-- [Sample DPIA — Product Analytics](./sample-dpia-product-analytics.md)
+- [Sample DPIA](./sample-dpia-product-analytics.md)
 - [Data-Flow Diagram](./data-flow-diagram.md)
 - [Rights Request Tracker](./rights-request-tracker.csv)
-- [Retention & Deletion Schedule](./retention-schedule.csv)
+- [Retention Schedule](./retention-schedule.csv)
 - [Privacy Gap Assessment](./privacy-gap-assessment.csv)
 - [Remediation Tracker](./remediation-tracker.csv)
 - [Sample Privacy Notice](./privacy-notice-sample.md)
-- [Executive Privacy Readiness Summary](./executive-summary.md)
-- [Authoritative Sources](./sources.md)
+- [Executive Summary](./executive-summary.md)
+- [Sources](./sources.md)
 
-## Framework Coverage
+## Skills shown
 
-The assessment references the **Digital Personal Data Protection Act, 2023**, the notified **Digital Personal Data Protection Rules, 2025**, and selected **GDPR** concepts such as transparency, data-subject rights, accountability and DPIA.
+**Privacy GRC · Data Inventory · DPIA · Data Minimisation · Rights Handling · Retention · Processor Governance · Risk Assessment · Remediation**
 
-The DPDP Rules 2025 and the DPDP Act commencement notification use a phased commencement schedule, so this portfolio distinguishes readiness activities from the specific effective dates in the notified framework.
-
-## Skills Demonstrated
-
-**Privacy GRC · ROPA / Data Inventory · Data Minimisation · Processing Purpose & Basis · DPIA · Data Subject / Data Principal Rights · Retention & Deletion · Consent Governance · Processor / Subprocessor Oversight · Privacy Risk · Remediation · Executive Reporting**
-
-> This project is simulated portfolio work. All people, systems, processing activities, requests, risks and evidence are fictional. It is not legal advice, a compliance certification or an assurance opinion.
+> All data, people, systems, requests and results are fictional.
