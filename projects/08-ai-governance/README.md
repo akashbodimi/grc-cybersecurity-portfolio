@@ -1,14 +1,16 @@
 # AI Governance Risk & Control Assessment
 
-**Status:** Completed — simulated AI governance environment
+**Status:** Completed — simulated project
 
-## Objective
+## What this project is
 
-Demonstrate practical AI Governance, Risk and Compliance (GRC) across AI inventory, use-case classification, risk assessment, impact assessment, model validation, human oversight, third-party AI risk, policy governance, monitoring and remediation.
+I used a fictional SaaS company to look at how AI use cases can be governed from a risk and compliance point of view.
 
-## Case Study
+The project does not assume that every AI system carries the same level of risk. I screened the use cases first, then looked at data, human oversight, validation, third-party providers, monitoring and incident handling.
 
-The project uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS organization with five simulated AI systems:
+## Use cases
+
+Five fictional AI systems are included:
 
 - Support Copilot
 - Threat Detection Assistant
@@ -16,40 +18,57 @@ The project uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS organi
 - Demand Forecasting Model
 - Marketing Content Assistant
 
-## Workflow
+## What I worked on
 
-**AI Intake → Inventory → Use-Case Screening → Risk Assessment → Impact Assessment → Control Mapping → Validation → Approval → Monitoring → Reassessment**
+- Built an AI inventory
+- Classified use cases
+- Created an AI risk register
+- Added governance and policy checks
+- Built a sample impact assessment
+- Created a model card for candidate screening
+- Reviewed evidence
+- Logged findings and remediation
+- Added monitoring and reassessment points
 
-## Framework Coverage
+## Assessment flow
 
-- NIST AI RMF 1.0 — Govern, Map, Measure, Manage
+**AI Inventory → Screening → Risk → Impact Assessment → Controls → Evidence → Findings → Remediation → Monitoring**
+
+## Key results
+
+The simulation covers **5 AI systems**, **7 risks** and **6 findings**.
+
+The main gaps were around:
+
+- Impact-assessment evidence
+- Model validation
+- Human oversight
+- Third-party model/provider monitoring
+
+## Frameworks referenced
+
+- NIST AI RMF
 - NIST AI RMF Generative AI Profile
-- ISO/IEC 42001 AI management-system concepts
-- EU AI Act use-case screening
-- Privacy, security, third-party and operational governance considerations
+- ISO/IEC 42001 concepts
+- EU AI Act
+- Privacy and information-security controls
 
-NIST describes AI RMF 1.0 as a voluntary framework for managing AI risks and notes that the framework is being revised. ISO describes ISO/IEC 42001 as requirements for establishing, implementing, maintaining and continually improving an AI management system. The EU AI Act has phased application dates, so actual applicability should always be assessed against the current consolidated legal text. citeturn595649search0turn595649search2turn725289search1
+## Files
 
-## Deliverables
-
-- [AI Governance Assessment — Excel](./AI_Governance_Assessment_Northstar.xlsx)
+- [Excel workpaper](./AI_Governance_Assessment_Northstar.xlsx)
 - [AI Governance Methodology](./ai-governance-methodology.md)
 - [AI Use-Case Inventory](./ai-use-case-inventory.csv)
 - [AI Policy Checklist](./ai-policy-checklist.csv)
-- [Model Impact Assessment — Candidate Screening](./model-impact-assessment.md)
+- [Model Impact Assessment](./model-impact-assessment.md)
 - [Evidence Index](./evidence-index.csv)
 - [Findings Log](./findings-log.csv)
 - [Remediation Tracker](./remediation-tracker.csv)
-- [Model Card — Candidate Screening](./model-card-candidate-screening.md)
+- [Model Card](./model-card-candidate-screening.md)
 - [Executive Summary](./executive-summary.md)
-- [Reference Sources](./sources.md)
+- [Sources](./sources.md)
 
-## Key Skills Demonstrated
+## Skills shown
 
-**AI Governance · AI Risk Assessment · AI Inventory · Model Governance · Impact Assessment · Human Oversight · AI Policy · Third-Party AI Risk · Monitoring · Findings · Remediation · Executive Reporting**
+**AI Governance · AI Risk · Model Governance · Impact Assessment · Human Oversight · AI Policy · Third-Party AI Risk · Monitoring · Remediation**
 
-## Portfolio Traceability
-
-**AI System → Context → Risk → Control → Evidence → Finding → Remediation → Validation**
-
-> This project is simulated portfolio work. All systems, users, model documentation, evidence, findings and decisions are fictional. It does not represent real AI deployment, a conformity assessment, legal advice or an assurance opinion.
+> All systems, evidence, findings and decisions are fictional. This is a portfolio exercise, not a legal opinion or regulatory certification.
