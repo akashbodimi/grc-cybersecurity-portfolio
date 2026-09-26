@@ -1,0 +1,13 @@
+Asset ID,Service,Workload,Environment,Data Classification,Criticality,Internet Exposure,Region,Owner,Logging,Backup,Key Risk
+AST-001,Amazon EC2,Web API,Prod,Confidential,High,Public,ap-south-1,Platform Team,Enabled,Daily,Customer-facing workload
+AST-002,Amazon RDS,Application DB,Prod,Restricted,Critical,Private,ap-south-1,DBA Team,Enabled,Daily,Critical data store
+AST-003,Amazon S3,Customer documents,Prod,Restricted,High,Private,ap-south-1,Storage Team,Enabled,Daily,Storage access/configuration
+AST-004,Amazon EKS,Microservices,Prod,Confidential,High,Public,ap-south-1,Platform Team,Enabled,Daily,Container workload
+AST-005,AWS IAM,Cloud identities,All,Restricted,Critical,N/A,Global,IAM Team,CloudTrail,N/A,Privileged access
+AST-006,AWS CloudTrail,Audit logging,All,Restricted,High,N/A,Global,Security Team,Enabled,N/A,Audit trail
+AST-007,Amazon GuardDuty,Threat detection,Prod,Internal,High,N/A,ap-south-1,Security Team,Enabled,N/A,Threat monitoring
+AST-008,AWS KMS,Encryption keys,All,Restricted,Critical,N/A,ap-south-1,Security Team,Enabled,N/A,Key governance
+AST-009,AWS Backup,Backup service,Prod,Internal,High,N/A,ap-south-1,Infrastructure,Enabled,N/A,Recovery controls
+AST-010,Amazon VPC,Network boundary,Prod,Internal,Critical,Partial,ap-south-1,Network Team,Flow Logs,N/A,Segmentation
+AST-011,AWS WAF,Web protection,Prod,Internal,High,Public,ap-south-1,Platform Team,Enabled,N/A,External attack surface
+AST-012,AWS Secrets Manager,Application secrets,Prod,Restricted,High,Private,ap-south-1,Platform Team,Enabled,N/A,Credential lifecycle
