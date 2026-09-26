@@ -54,7 +54,7 @@ That is the part I want the portfolio to show, rather than just a list of framew
 
 **GRC work:** Risk assessment, ITGC, control testing, TPRM, privacy, IAM governance, cloud GRC, AI governance
 
-**Tools:** Microsoft Excel, Power Query concepts, Power BI concepts, GitHub, Jira/Confluence concepts, ServiceNow GRC concepts
+**Tools:** Microsoft Excel, GitHub, and documented workflows that can be carried into Power Query, Power BI or a GRC platform like ServiceNow
 
 ## A note about the numbers
 
