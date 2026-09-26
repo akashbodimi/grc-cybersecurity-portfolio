@@ -1,0 +1,5 @@
+Action ID,Finding ID,Remediation,Owner,Priority,Target Date,Success Measure,Status,Validation
+RA-CLD-001,CLD-F001,Complete privileged-role reconciliation and recertification,IAM Lead,High,2026-10-15,100% of privileged roles trace to review evidence,Open,Follow-up review
+RA-CLD-002,CLD-F002,Run restore testing for critical workloads,Infrastructure Lead,High,2026-10-20,All critical workloads have successful restore evidence,Open,Retest
+RA-CLD-003,CLD-F003,Implement patch-SLA monitoring and escalation,Platform Lead,Medium,2026-10-10,Critical patch exceptions are escalated on time,Open,Next patch-cycle review
+RA-CLD-004,CLD-F004,Restrict storage public access and add CSPM alert,Cloud Security Lead,High,2026-10-05,No unintended public storage remains,Open,CSPM retest
