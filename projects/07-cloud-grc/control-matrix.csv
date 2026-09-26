@@ -1,0 +1,16 @@
+Control ID,Domain,Objective,Control Activity,Owner,Reference,Evidence,Result,Finding
+CLD-01,IAM,Restrict access to authorized identities,MFA and least-privilege roles are reviewed,Customer,NIST CSF 2.0 / NIST AC themes,IAM role inventory; MFA settings,Effective,
+CLD-02,IAM,Govern privileged access,Privileged roles are separately identified and recertified,Customer,NIST SP 800-53 AC-2/AC-6,Privileged review; IAM export,Needs Improvement,CLD-F001
+CLD-03,Network,Protect network boundaries,Private data tiers and restricted security groups are used,Customer,CIS Controls v8.1,VPC architecture; SG review,Effective,
+CLD-04,Logging,Maintain cloud audit trail,Organization CloudTrail is enabled and centralized,Customer,NIST CSF Detect,CloudTrail config; SIEM record,Effective,
+CLD-05,Monitoring,Detect suspicious activity,Threat detection findings are routed for investigation,Customer,NIST CSF Detect,GuardDuty evidence; case records,Effective,
+CLD-06,Encryption,Protect sensitive data,Encryption at rest and TLS in transit are required,Customer,NIST CSF Protect,KMS/RDS settings,Effective,
+CLD-07,Key Management,Restrict cryptographic key use,Key policies and rotation are configured,Customer,NIST SP 800-53 SC themes,KMS policy; rotation,Effective,
+CLD-08,Vulnerability,Reduce exposure to known vulnerabilities,Cloud workloads are scanned and remediation SLAs tracked,Customer,CIS Controls v8.1,Vulnerability report; patch records,Needs Improvement,CLD-F003
+CLD-09,Backup,Protect recoverability,Critical services are covered by managed backups,Customer,NIST CSF Recover,Backup job report,Effective,
+CLD-10,Recovery,Demonstrate restoration capability,Critical workloads undergo documented restore tests,Customer,NIST CSF Recover,Restore test report,Needs Improvement,CLD-F002
+CLD-11,Configuration,Prevent insecure cloud settings,CSPM/baseline checks monitor public access and weak configurations,Customer,CIS Controls v8.1,CSPM report; baseline,Needs Improvement,CLD-F004
+CLD-12,Incident Response,Respond to cloud events,Cloud incident playbook defines triage and evidence preservation,Customer,NIST CSF Respond,IR playbook; tabletop,Effective,
+CLD-13,Third Party,Understand provider/inherited controls,Provider assurance is mapped to customer obligations,Shared,Shared responsibility model,Assurance report; mapping,Effective,
+CLD-14,Data Governance,Know cloud data and owners,Data stores have classification ownership and retention,Customer,NIST CSF Govern/Identify,Data inventory,Effective,
+CLD-15,Change Management,Control production cloud changes,Changes require approval testing and rollback evidence,Customer,NIST CSF Govern/Protect,Change tickets; deployment logs,Effective,
