@@ -1,0 +1,13 @@
+Policy ID,Policy Area,Requirement,Owner,Evidence,Status,Gap / Next Step
+POL-01,AI Inventory,All AI systems must be registered before production use,AI Governance,AI inventory,Complete,Maintain quarterly attestation
+POL-02,Approved Use,AI tools may only be used for documented business purposes,AI Governance,Acceptable-use policy,In Progress,Finalize approval and acknowledgement
+POL-03,Data Handling,Restricted/confidential data requires approved use-case and provider assessment,Security / Privacy,Data-handling standard,Open,Add explicit AI data-handling rules
+POL-04,Human Oversight,Higher-impact AI outputs require documented human review,Business Owner,Human oversight procedure,In Progress,Define decision logging and escalation
+POL-05,Validation,High-impact models require documented evaluation before deployment,Model Owner,Evaluation report,Open,Create approval gate and metrics
+POL-06,Third Party,AI providers require security/privacy/contract review and ongoing change monitoring,TPRM,Vendor assessment,Open,Add model/provider monitoring to TPRM
+POL-07,Security,AI systems require access control, secrets protection, logging and secure configuration,Security Engineering,Security control evidence,Complete,Continue periodic review
+POL-08,Monitoring,Post-deployment performance and risk indicators must be monitored,Model Owner,Monitoring report,In Progress,Define recurring metrics
+POL-09,Incident Response,AI-related security, privacy and model incidents must have escalation paths,Security / Privacy,AI incident playbook,Complete,Run tabletop annually
+POL-10,Training,Personnel using AI must receive policy and acceptable-use training,HR / AI Governance,Training record,Open,Complete awareness rollout
+POL-11,Records,AI decisions, evaluations and approvals must be retained according to approved schedules,GRC / Privacy,Evidence index; retention schedule,Open,Define retention requirements
+POL-12,Exceptions,Policy exceptions require documented rationale, approval and expiry,AI Governance,Exception register,Open,Create exception workflow
