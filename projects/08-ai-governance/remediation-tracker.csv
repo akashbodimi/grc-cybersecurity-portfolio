@@ -1,0 +1,7 @@
+Action ID,Finding ID,Action,Owner,Priority,Target Date,Success Measure,Status,Validation
+RA-AI-001,AI-F-001,Complete candidate-screening impact assessment and stakeholder review.,Privacy / HR,High,2026-10-25,Approved assessment contains validation and stakeholder evidence.,Open,Follow-up review
+RA-AI-002,AI-F-002,Define and approve model evaluation and error/fairness metrics.,HR Systems,High,2026-10-20,Approved pre-release evaluation pack.,Open,Evaluation evidence
+RA-AI-003,AI-F-003,Implement retention of sampled human-review and override decisions.,Support Operations,Medium,2026-10-15,Reviewer decisions can be sampled and traced.,Open,Workflow sample
+RA-AI-004,AI-F-004,Add provider model/version and subprocessor change monitoring to TPRM.,TPRM,Medium,2026-11-05,Material provider changes trigger reassessment.,Open,TPRM monitoring evidence
+RA-AI-005,AI-F-005,Approve AI acceptable-use policy and complete user training.,AI Governance,Low,2026-10-10,Policy approved and in-scope users tracked.,In Progress,Training report
+RA-AI-006,AI-F-006,Execute a simulated drift-trigger test.,Operations Analytics,Low,2026-10-30,Trigger produces documented reassessment event.,Open,Monitoring test
