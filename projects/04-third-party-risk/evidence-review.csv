@@ -1,0 +1,13 @@
+Evidence ID,Vendor ID,Document / Evidence,Domain,Coverage,Reviewer Assessment,Gap / Follow-up
+EV-TP-001,V-001,ISO 27001 certificate,Governance,Current certification evidence,Supports baseline governance,None
+EV-TP-002,V-001,Independent assurance report,Security Assurance,Current reporting period,Supports operating control assertions,None
+EV-TP-003,V-001,Information Security Policy,Governance,Current policy,Supports policy governance,None
+EV-TP-004,V-001,Access Control Standard,Access Control,Current standard,Supports privileged-access requirements,Request evidence showing admin MFA configuration
+EV-TP-005,V-001,Vulnerability Management Policy,Vulnerability Management,Current policy,Supports process existence,Validate latest critical vulnerability SLA metrics
+EV-TP-006,V-001,Penetration Test Executive Summary,Penetration Testing,Referenced by questionnaire,Insufficient for review,Request the current executive summary or equivalent assurance
+EV-TP-007,V-001,Incident Response Plan and Tabletop Summary,Incident Response,Current plan and recent exercise,Supports response readiness,None
+EV-TP-008,V-001,BCP/DR Test Summary,BCP/DR,Recent test summary,Supports continuity testing,None
+EV-TP-009,V-001,Subprocessor List,Privacy / Supply Chain,Current list,Supports inventory,Request documented customer notification/change process
+EV-TP-010,V-001,Data Processing Agreement,Privacy,Current agreement,Supports privacy obligations,None
+EV-TP-011,V-001,Data Retention Statement,Privacy,General statement only,Partially supports retention,Request defined retention periods for Northstar data
+EV-TP-012,V-001,Secure Deletion Procedure,Data Lifecycle,Not supplied,Control could not be validated,Request deletion procedure and sample certificate / attestation
