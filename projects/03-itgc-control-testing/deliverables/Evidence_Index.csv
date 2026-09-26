@@ -1,0 +1,13 @@
+Evidence ID,Control ID,Evidence Type,Description,Source / Location,Period,Provided By,Status,Auditor Note
+EV-001,AC-01,Access Request,Joiner access request with manager approval,Simulated HR/IAM ticket HR-2401,2026-Q3,IAM Team,Received,Supports JML authorization
+EV-002,AC-01,Identity Record,Provisioning record for joiner event,Simulated IAM export IAM-771,2026-Q3,IAM Team,Received,Supports provisioning execution
+EV-003,AC-02,Access Review,Quarterly application access review sign-off,Simulated application owner review pack,2026-Q3,Application Owner,Received,Supports periodic review
+EV-004,AC-03,Privileged Review,Quarterly privileged account review,Simulated privileged account report,2026-Q3,Security Admin,Received,Missing evidence for 2 accounts
+EV-005,AC-04,Configuration Export,Password and lockout settings,Simulated identity platform export,2026-Q3,IT Operations,Received,Supports policy configuration
+EV-006,CH-01,Change Ticket,Approved production change CHG-01,Simulated ITSM ticket,2026-Q3,Change Manager,Received,Approval precedes deployment
+EV-007,CH-02,Emergency Change,Emergency change ticket and retrospective review,Simulated ITSM emergency record,2026-Q3,Change Manager,Received,Review exceeded one-day target
+EV-008,CH-03,Testing Evidence,QA sign-off for sampled change,Simulated QA evidence folder,2026-Q3,Application Team,Received,Supports pre-production testing
+EV-009,OPS-01,Backup Log,Daily backup execution report,Simulated backup console export,2026-Q3,Infrastructure,Received,No unexplained failures in sample
+EV-010,OPS-02,Restore Test,Quarterly restore test report,Simulated recovery test folder,2026-Q3,Infrastructure,Received,One critical system lacked documented restore proof
+EV-011,OPS-03,Job Monitoring,Daily batch job monitoring report,Simulated operations dashboard,2026-Q3,IT Operations,Received,Supports monitoring and follow-up
+EV-012,AC-03,Account Listing,Current privileged account inventory,Simulated identity export,2026-Q3,Security Admin,Received,Supports population completeness
