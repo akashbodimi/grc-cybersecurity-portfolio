@@ -1,0 +1,9 @@
+Data Set,Purpose,System,Simulated Retention,Trigger,Deletion / Anonymisation,Hold Consideration,Owner,Status
+Customer account data,Provide SaaS account,CRM / IAM,Contract term + 12 months,Account closure,Delete or anonymise after approved hold check,Legal/statutory/contract hold,CRM Owner,Defined
+Support tickets,Support history,ITSM,24 months after closure,Ticket closure,Delete attachments; retain minimal service metrics,Legal hold if applicable,Support Ops,Defined
+Product analytics raw events,Product improvement,Analytics,12 months,Event timestamp,Automated deletion / aggregation,None unless incident/legal hold,Data Platform,Missing
+Marketing data,Communications,Email platform,Until withdrawal or defined review period,Opt-out / inactivity,Suppress and remove from campaigns,Record-evidence requirement,Marketing Ops,Defined
+Applicant records,Recruitment,ATS,6 months target,Hiring decision closure,Secure deletion,Legal/contract assessment required,HR,Needs review
+Security logs,Threat detection,SIEM,180 days hot + 12 months archive,Event age,Automated lifecycle policy,Incident/legal hold,SOC,Defined
+Vendor due diligence,Supplier governance,TPRM,Contract term + 24 months,Vendor offboarding,Secure deletion,Audit/legal hold,Procurement,Missing
+Consent / preference records,Demonstrate user choices,Consent system,Consent duration + evidence period,Withdrawal / closure,Secure deletion subject to evidence need,Privacy Ops,Needs review
