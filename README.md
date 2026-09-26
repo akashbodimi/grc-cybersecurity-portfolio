@@ -29,7 +29,7 @@ This portfolio demonstrates hands-on work across:
 | [04 — Third-Party Risk Assessment](projects/04-third-party-risk/) | TPRM, questionnaires, vendor scoring, remediation | **Completed — Simulated** |
 | [05 — DPDP/GDPR Readiness](projects/05-privacy-readiness/) | Privacy, data classification, DPIA, retention | **Completed — Simulated** |
 | [06 — IAM Governance & Access Review](projects/06-iam-governance/) | IAM, RBAC, SoD, access recertification | **Completed — Simulated** |
-| [07 — Cloud GRC Assessment](projects/07-cloud-grc/) | Shared responsibility, cloud controls, evidence | Planned |
+| [07 — Cloud GRC Assessment](projects/07-cloud-grc/) | Shared responsibility, cloud controls, evidence | **Completed — Simulated** |
 | [08 — AI Governance Assessment](projects/08-ai-governance/) | AI risk, NIST AI RMF, ISO 42001 concepts | Planned |
 
 ## Completed project: ISO 27001 Gap Assessment
