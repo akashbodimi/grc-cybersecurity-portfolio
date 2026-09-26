@@ -1,0 +1,13 @@
+Evidence ID,Vendor ID,Artifact,Owner,Received Date,Review Status,Maps To,Notes
+EV-TP-001,V-001,ISO 27001 certificate,Vendor Security,2026-09-18,Reviewed,Governance,Simulated certificate evidence
+EV-TP-002,V-001,Independent assurance report,Vendor Security,2026-09-18,Reviewed,Security Assurance,Simulated assurance report
+EV-TP-003,V-001,Information Security Policy,Vendor Security,2026-09-18,Reviewed,Governance,Simulated policy
+EV-TP-004,V-001,Access Control Standard,Vendor Security,2026-09-19,Reviewed with gap,Access Control,Admin MFA evidence still required
+EV-TP-005,V-001,Vulnerability Management Policy,Vendor Security,2026-09-19,Reviewed,Vulnerability Management,Simulated policy
+EV-TP-006,V-001,Penetration Test Executive Summary,Vendor Security,2026-09-20,Follow-up required,Penetration Testing,Not provided
+EV-TP-007,V-001,Incident Response Plan and Tabletop Summary,Vendor Security,2026-09-20,Reviewed,Incident Response,Simulated exercise summary
+EV-TP-008,V-001,BCP/DR Test Summary,Vendor Operations,2026-09-20,Reviewed,BCP/DR,Simulated test summary
+EV-TP-009,V-001,Subprocessor List,Vendor Privacy,2026-09-21,Reviewed with gap,Supply Chain,Notification evidence required
+EV-TP-010,V-001,Data Processing Agreement,Vendor Privacy,2026-09-21,Reviewed,Privacy,Simulated agreement
+EV-TP-011,V-001,Data Retention Statement,Vendor Privacy,2026-09-21,Reviewed with gap,Data Lifecycle,Specific periods required
+EV-TP-012,V-001,Secure Deletion Procedure,Vendor Privacy,2026-09-21,Missing,Data Lifecycle,High-priority follow-up
