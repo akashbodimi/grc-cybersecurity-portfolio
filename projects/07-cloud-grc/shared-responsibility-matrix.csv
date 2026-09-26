@@ -1,0 +1,11 @@
+Control Area,AWS Responsibility,Northstar Customer Responsibility,Evidence Expected,Assessment Result
+Physical Security,Provider facilities and hardware security,N/A,Provider assurance reports,Inherited
+Infrastructure / Hypervisor,Underlying cloud infrastructure,Service-specific configuration,Provider assurance / service documentation,Shared
+IAM,IAM platform capabilities,Users roles MFA least privilege and reviews,IAM configuration and access-review evidence,Needs Improvement
+Network,Underlying cloud network fabric,VPC security groups NACLs routing and segmentation,Architecture and configuration review,Effective
+Logging,Cloud audit capabilities,Enable configure retain and monitor logs,CloudTrail and SIEM evidence,Effective
+Data Protection,Platform infrastructure security,Classification encryption keys and data access,KMS and data-store settings,Effective
+Vulnerability Management,Managed-service patching where applicable,Guest OS workload and application patching,Vulnerability and patch reports,Needs Improvement
+Backup / Recovery,Service durability capabilities,Backup policy RTO/RPO and restore testing,Backup logs and restore tests,Needs Improvement
+Application Security,Managed platform security,Secure SDLC dependencies secrets and app configuration,SDLC and dependency evidence,Effective
+Provider Assurance,Provider compliance program,Map provider assurance to customer controls,Assurance report and control mapping,Effective
