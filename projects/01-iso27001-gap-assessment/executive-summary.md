@@ -1,40 +1,37 @@
-# Executive Summary
+# Executive Summary — ISO 27001 Gap Assessment
 
-## Assessment
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** Q3 2026  
+**Type:** Simulated internal gap assessment
 
-**Organization:** Northstar Cloud Services Pvt. Ltd. (fictional)
+## What I found
 
-**Assessment:** ISO/IEC 27001:2022 simulated internal gap assessment
+I reviewed 15 selected controls and recorded 8 findings. The basic security practices are there, but some of the supporting governance and evidence are not consistent yet.
 
-**Period:** Q3 2026
+The main areas needing work were:
 
-## Overall observation
+- Access review and offboarding evidence
+- Supplier security due diligence
+- Cloud responsibility and ownership
+- Vulnerability remediation tracking
+- Recovery objectives and restore testing
+- Logging coverage and retention
+- Threat-intelligence review
 
-The simulated organization has a number of foundational security practices in place, including centralized identity, vulnerability scanning, security awareness, incident-response documentation, encryption and controlled production changes. The principal improvement opportunity is not the absence of every security control; it is the consistency of governance, evidence, ownership and repeatability around those controls.
+## Risk picture
 
-## Key observations
+The higher-risk items were mainly around identity and access, third-party risk, cloud security, vulnerability management and recovery.
 
-- Access review and offboarding evidence requires stronger consistency.
-- Critical supplier due diligence should be risk-tiered and repeatable.
-- Cloud shared-responsibility ownership should be formally mapped.
-- Vulnerability remediation ageing and risk exceptions need stronger governance.
-- Business-continuity recovery objectives should be connected to restore testing.
-- Logging coverage and retention should be documented against business/security requirements.
-- Threat-intelligence review and incident-response exercises should be more formally evidenced.
+The point of the exercise was not to mark every control as a failure. Where there was a process but the evidence was weak, I recorded the control as partial rather than assuming it worked.
 
-## Risk themes
+## What I would do next
 
-The highest simulated risk themes relate to identity/access, third-party risk, cloud governance, vulnerability management and recovery readiness. These themes were prioritized because a control weakness in these areas could affect confidentiality, integrity, availability or the ability to respond effectively.
+1. Fix the access, policy and vulnerability tracking items first.
+2. Give each control a clear owner and evidence location.
+3. Track remediation in one place.
+4. Retest the affected controls after the changes are made.
+5. Recalculate residual risk and repeat the review later.
 
-## Recommended next steps
+## Note
 
-1. Address Priority 1 actions within 30 days.
-2. Establish named control owners and evidence repositories.
-3. Track remediation through a centralized action log.
-4. Validate closure using objective evidence.
-5. Reassess residual risk after remediation.
-6. Repeat the assessment periodically and after material business/technology changes.
-
-## Important limitation
-
-This is a fictional portfolio exercise. It is not an audit, certification assessment or legal/compliance opinion and must not be interpreted as a real organization's ISO 27001 status.
+This is fictional portfolio work. It is not an ISO certification audit, legal opinion or statement about a real company's compliance status.
