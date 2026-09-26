@@ -1,0 +1,5 @@
+Finding ID,Control ID,Domain,Condition,Risk,Severity,Recommendation,Owner,Status
+CLD-F001,CLD-02,IAM,Privileged administration path lacks complete recertification evidence,Unreviewed administrative access may persist,High,Reconcile privileged role population and complete quarterly recertification,IAM Lead,Open
+CLD-F002,CLD-10,Recovery,One critical workload lacks documented restore-test proof,Recoverability is not demonstrated for the affected workload,High,Perform and document restore testing for all critical workloads,Infrastructure Lead,Open
+CLD-F003,CLD-08,Vulnerability,One EC2 critical patch item exceeded the defined SLA,Known vulnerability exposure may persist longer than intended,Medium,Strengthen patch-SLA monitoring and escalation,Platform Lead,Open
+CLD-F004,CLD-11,Configuration,One storage configuration allowed broader access than intended,Cloud misconfiguration could expose sensitive data,High,Restrict public access and add recurring CSPM alerting,Cloud Security Lead,Open
