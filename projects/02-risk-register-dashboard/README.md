@@ -1,54 +1,50 @@
 # Cyber Risk Register & Dashboard
 
-**Status:** Completed — simulated portfolio project
+**Status:** Completed — simulated project
 
-## Organization
+## What this project is
 
-**Northstar Cloud Services Pvt. Ltd.** — a fictional India-based B2B SaaS provider used only for portfolio practice.
+This project is a simple example of how I would maintain a cybersecurity risk register and report the important items to management.
 
-## Objective
+I used **Northstar Cloud Services Pvt. Ltd.**, a fictional B2B SaaS company, and created 15 sample risks covering common technology and security areas.
 
-Build a practical cyber-risk management workflow from risk identification through treatment, monitoring and management reporting.
+## What I worked on
 
-## Methodology
+- Identified security and technology risks
+- Assigned owners and due dates
+- Scored likelihood and impact on a 1–5 scale
+- Calculated inherent and residual risk
+- Recorded treatment decisions and actions
+- Added basic KRIs/KPIs
+- Built an Excel dashboard
+- Added an evidence index and methodology
 
-Risk score = **Likelihood × Impact**, using a 1–5 scale.
+## Risk scoring
+
+**Risk score = Likelihood × Impact**
 
 - 1–7: Low
 - 8–14: Medium
 - 15–25: High
 
-The register distinguishes **inherent risk** from **residual risk** after planned treatment.
+The register keeps **inherent risk** separate from **residual risk** so it is clear what changes after treatment.
 
-## What I built
+## Key risk areas
 
-- 15 illustrative cybersecurity/technology risks
-- Risk owners and due dates
-- Existing controls
-- Likelihood and impact scoring
-- Inherent-risk calculation
-- Treatment decisions and actions
-- Residual-risk calculation
-- KRIs/KPIs
-- Evidence index
-- Management dashboard
-- Risk methodology
-- Executive summary
+The sample register covers:
 
-## Key risk themes
+**IAM · Vulnerability Management · Logging · Third-Party Risk · Data Protection · Business Continuity · Incident Response · Endpoint Security · Backup/Recovery**
 
-Identity and access, vulnerability management, logging and monitoring, third-party risk, data protection, business continuity, security awareness, incident response, endpoint security and backup/recovery.
+## Files
 
-## Deliverables
+- [Excel dashboard](./Cyber_Risk_Register_Dashboard_Northstar.xlsx)
+- [Risk Register](./risk-register.csv)
+- [Risk Methodology](./risk-methodology.md)
+- [Dashboard Metrics](./risk-dashboard-metrics.csv)
+- [Executive Summary](./executive-summary.md)
 
-- `risk-register.csv` — recruiter-readable risk register
-- `evidence-index.csv` — evidence tracking sample
-- `risk-methodology.md` — scoring methodology
-- `executive-summary.md` — management-level summary
-- `Cyber_Risk_Register_Dashboard_Northstar.xlsx` — interactive Excel workbook with dashboard, formulas, conditional formatting and validation lists
+## Skills shown
 
-## Portfolio interpretation
+**Risk Identification · Risk Scoring · Risk Treatment · Residual Risk · KRI/KPI Reporting · Excel · GRC Documentation**
 
-The project demonstrates the workflow a GRC analyst can use to convert security concerns into measurable risks, assign ownership, select treatment actions and monitor residual exposure.
-
-> This is simulated portfolio work. It is not a risk assessment of a real organization and does not claim production/client experience.
+> This is simulated portfolio work. It does not represent a real risk assessment or production/client experience.
