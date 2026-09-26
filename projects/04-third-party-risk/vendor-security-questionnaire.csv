@@ -1,0 +1,26 @@
+Question ID,Domain,Question,Vendor Response,Response Type,Required Evidence,Evidence Status,Reviewer Note
+SEC-01,Governance,Is there an information security policy approved by management and reviewed periodically?,Yes,Yes/No,Security policy and review record,Received,Policy provided
+SEC-02,Access Control,Are MFA controls enforced for administrative access?,Yes,Yes/No,Admin MFA configuration or assurance evidence,Partial,Policy statement provided but configuration evidence incomplete
+SEC-03,Access Control,Are privileged accounts uniquely assigned to named individuals?,Yes,Yes/No,Privileged account standard / assurance report,Received,Control described
+SEC-04,Access Control,Are access rights reviewed periodically?,Yes,Yes/No,Recent access review evidence,Received,Quarterly review described
+SEC-05,Access Control,Is joiner mover leaver access managed through documented workflow?,Yes,Yes/No,JML procedure / assurance evidence,Received,Procedure described
+SEC-06,Encryption,Is customer data encrypted in transit?,Yes,Yes/No,Architecture or assurance evidence,Received,TLS control described
+SEC-07,Encryption,Is customer data encrypted at rest?,Yes,Yes/No,Architecture or assurance evidence,Received,Encryption control described
+SEC-08,Key Management,Are cryptographic keys managed under documented access and rotation controls?,Yes,Yes/No,Key-management standard / assurance evidence,Partial,Rotation described; detailed evidence not supplied
+SEC-09,Vulnerability Mgmt,Are vulnerability scans performed regularly?,Yes,Yes/No,Vulnerability-management policy / sample report,Received,Process evidence provided
+SEC-10,Vulnerability Mgmt,Are critical vulnerabilities remediated within defined targets?,Yes,Yes/No,SLA / remediation report,Received,SLA stated
+SEC-11,Penetration Testing,Is penetration testing performed at least periodically?,Yes,Yes/No,Recent executive summary or attestation,Partial,Summary referenced but not provided
+SEC-12,Secure SDLC,Are security requirements incorporated into software development?,Yes,Yes/No,SSDLC policy / lifecycle evidence,Received,Process described
+SEC-13,Change Mgmt,Are production changes subject to approval and testing?,Yes,Yes/No,Change procedure / assurance evidence,Received,Change process described
+SEC-14,Logging,Are security-relevant events logged and monitored?,Yes,Yes/No,Logging standard / assurance evidence,Received,Monitoring control described
+SEC-15,Incident Response,Is there a documented incident response plan tested periodically?,Yes,Yes/No,IR plan / tabletop evidence,Received,Tabletop summary provided
+SEC-16,Breach Notification,Is there a documented process for customer notification after applicable security incidents?,Yes,Yes/No,Contract/privacy terms,Received,Notification process described
+SEC-17,BCP/DR,Are business continuity and disaster recovery plans tested periodically?,Yes,Yes/No,BCP/DR test summary,Received,Annual test described
+SEC-18,RPO/RTO,Are recovery objectives defined for the service?,Yes,Yes/No,RTO/RPO documentation,Received,Targets provided
+SEC-19,Subprocessors,Is there a current list of subprocessors and change-notification process?,Yes,Yes/No,Subprocessor list and notification terms,Partial,List supplied; notification process not evidenced
+SEC-20,Privacy,Is personal data processing documented and governed by contract/privacy terms?,Yes,Yes/No,DPA/privacy terms,Received,DPA provided
+SEC-21,Retention,Are retention periods documented for customer data?,Yes,Yes/No,Retention standard,Partial,General statement provided
+SEC-22,Deletion,Is customer data securely deleted at contract termination or expiry according to defined timelines?,Yes,Yes/No,Deletion procedure / certificate example,Missing,No evidence supplied
+SEC-23,Security Assurance,Do independent assurance activities occur regularly?,Yes,Yes/No,SOC 2 / ISO certificate / equivalent assurance,Received,Current assurance report supplied
+SEC-24,Personnel Security,Are relevant personnel subject to security awareness and screening controls?,Yes,Yes/No,Training / screening policy,Received,Policy provided
+SEC-25,Third-Party Management,Does the vendor assess its own critical suppliers for security risk?,Yes,Yes/No,Fourth-party / supplier risk procedure,Partial,Process described but sample evidence absent
