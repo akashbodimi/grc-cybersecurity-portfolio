@@ -1,0 +1,5 @@
+Vendor ID,Vendor Name (Fictional),Service,Data Sensitivity,Access / Integration,Business Criticality,Regulatory Exposure,Concentration / Dependency,Inherent Score,Risk Tier,Assessment Status
+V-001,BluePeak Cloud Monitoring Pvt. Ltd.,Cloud monitoring and alerting,5,5,5,4,4,23,Critical,Enhanced due diligence completed
+V-002,NorthBridge HR Services Pvt. Ltd.,HR benefits administration,5,3,4,5,3,20,High,Annual assessment in progress
+V-003,Silverline Collaboration Tools Pvt. Ltd.,Team collaboration software,3,3,3,2,2,13,Medium,Standard assessment completed
+V-004,PaperTrail Office Supplies Pvt. Ltd.,Office supplies and consumables,1,1,1,1,1,5,Low,Light-touch review
