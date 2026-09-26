@@ -1,0 +1,11 @@
+Role,Application,Permissions,Access Level,Approver,SoD Considerations,Review Frequency
+Service Desk Agent,ITSM,Create/update tickets; knowledge base read,Standard,ITSM Owner,Should not approve own privileged changes,Quarterly
+Service Desk Lead,ITSM,Agent permissions + queue administration,Elevated,ITSM Owner,Change approval separation required,Quarterly
+Sales User,CRM,Customer account read/write for assigned region,Standard,CRM Owner,No finance approval access,Quarterly
+Finance AP User,Finance,Create supplier invoices; view AP records,Standard,Finance Owner,Conflicts with payment approval,Quarterly
+Finance Payment Approver,Finance,Approve payments within assigned limit,Elevated,Finance Manager,Conflicts with AP initiation,Quarterly
+Finance System Administrator,Finance,User/role administration and configuration,Privileged,Finance Systems Owner,Should not perform transaction approval,Quarterly
+Security Administrator,SIEM / IAM,Security administration; privileged identity review,Privileged,Security Manager,Administrative duties require named account,Quarterly
+Application Owner,CRM / ITSM,Approve application access; certify reviews,Elevated,Business Owner,Should not approve own inappropriate access,Quarterly
+HR Administrator,HR/ATS,Employee/applicant record administration,Privileged,HR Owner,No payroll approval combination,Quarterly
+Auditor / GRC Reviewer,GRC Repository,Read evidence; record findings,Read Only,GRC Manager,No production administration,Quarterly
