@@ -1,0 +1,5 @@
+Action ID,Finding ID,Vendor ID,Remediation Action,Priority,Owner,Target Date,Success Measure,Status,Validation Method
+TPRA-001,F-TPRF-001,V-001,Provide independent evidence that privileged administrators are protected by MFA.,High,Vendor Security Lead,2026-10-10,Independent evidence covers all privileged administrative paths.,Open,Review evidence and map to questionnaire response
+TPRA-002,F-TPRF-002,V-001,Provide current penetration-test executive summary or equivalent independent assurance evidence.,Medium,Vendor Security Lead,2026-10-20,Current testing evidence reviewed and scope understood.,Open,Document evidence review
+TPRA-003,F-TPRF-003,V-001,Provide contractual notification language and operating workflow for material subprocessor changes.,Medium,Vendor Privacy Lead,2026-10-24,Notification and review process is documented and applicable to Northstar.,Open,Review DPA/terms and procedure
+TPRA-004,F-TPRF-004,V-001,Provide documented retention/deletion requirements plus sample deletion attestation.,High,Vendor Privacy Lead,2026-10-10,Deletion obligations and evidence path are defined and testable.,Open,Review procedure and sample certificate
