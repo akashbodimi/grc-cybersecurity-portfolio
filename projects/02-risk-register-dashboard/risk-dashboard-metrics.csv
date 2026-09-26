@@ -1,0 +1,14 @@
+Metric,Value,Definition
+Total Risks,15,Total risks recorded in the simulated register
+High Inherent Risks,5,Risks with inherent score 15 or higher
+Medium Inherent Risks,10,Risks with inherent score 8-14
+Low Inherent Risks,0,Risks with inherent score 1-7
+Open Risks,12,Risks whose status is Open or In Progress
+In Progress Risks,4,Risks currently being treated
+Overdue Risk Actions,0,Illustrative count based on target dates in the portfolio scenario
+Average Inherent Risk,14.07,Average of simulated inherent risk scores
+Average Residual Risk,6.40,Average of simulated residual risk scores
+Privileged Access KRI,Example,Privileged accounts without recent review
+Vulnerability KRI,Example,Critical vulnerabilities past SLA
+Vendor KRI,Example,Critical vendors with overdue review
+Backup KRI,Example,Successful restore-test rate
