@@ -24,9 +24,9 @@ This portfolio demonstrates hands-on work across:
 | Project | Skills demonstrated | Status |
 |---|---|---|
 | [01 — ISO 27001 Gap Assessment](projects/01-iso27001-gap-assessment/) | ISO 27001, gap analysis, controls, remediation | **Completed — Simulated** |
-| [02 — Cyber Risk Register & Dashboard](projects/02-risk-register-dashboard/) | Risk assessment, scoring, treatment, KPIs/KRIs | Planned |
-| [03 — ITGC Control Testing](projects/03-itgc-control-testing/) | ITGC, ToD/ToE, evidence testing, findings | Planned |
-| [04 — Third-Party Risk Assessment](projects/04-third-party-risk/) | TPRM, questionnaires, vendor scoring, remediation | Planned |
+| [02 — Cyber Risk Register & Dashboard](projects/02-risk-register-dashboard/) | Risk assessment, scoring, treatment, KPIs/KRIs | **Completed — Simulated** |
+| [03 — ITGC Control Testing](projects/03-itgc-control-testing/) | ITGC, ToD/ToE, evidence testing, findings | **Completed — Simulated** |
+| [04 — Third-Party Risk Assessment](projects/04-third-party-risk/) | TPRM, questionnaires, vendor scoring, remediation | **Completed — Simulated** |
 | [05 — DPDP/GDPR Readiness](projects/05-privacy-readiness/) | Privacy, data classification, DPIA, retention | Planned |
 | [06 — IAM Governance & Access Review](projects/06-iam-governance/) | IAM, RBAC, SoD, access recertification | Planned |
 | [07 — Cloud GRC Assessment](projects/07-cloud-grc/) | Shared responsibility, cloud controls, evidence | Planned |
