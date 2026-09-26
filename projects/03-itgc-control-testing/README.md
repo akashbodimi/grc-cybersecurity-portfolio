@@ -32,12 +32,13 @@ Demonstrate basic IT General Controls testing across access management, change m
 ## Deliverables
 
 - [ITGC Control Testing Workpaper — Excel](./ITGC_Control_Testing_Workpaper_Northstar.xlsx)
-- ITGC control matrix
-- Sample workpapers
-- Evidence index
-- Findings log
-- Remediation tracker
-- Executive audit summary
+- [ITGC Control Matrix](./deliverables/ITGC_Control_Matrix.csv)
+- [Sample Workpaper — AC-01 JML Access](./deliverables/Sample_Workpaper_AC-01_JML_Access.md)
+- [Sample Workpaper — CH-01 Change Approval](./deliverables/Sample_Workpaper_CH-01_Change_Approval.md)
+- [Evidence Index](./deliverables/Evidence_Index.csv)
+- [Findings Log](./deliverables/Findings_Log.csv)
+- [Remediation Tracker](./deliverables/Remediation_Tracker.csv)
+- [Executive Audit Summary](./deliverables/Executive_Audit_Summary.md)
 
 ## Skills demonstrated
 
