@@ -1,0 +1,5 @@
+Assessment ID,Vendor ID,Vendor,Inherent Score,Inherent Tier,Control Strength,Open Findings,Residual Score,Residual Tier,Key Risk Driver,Approval Path
+TPRA-001,V-001,BluePeak Cloud Monitoring Pvt. Ltd.,23,Critical,Moderate,4,18,High,Production integration plus incomplete evidence for admin MFA, deletion and assurance items,Conditional approval with remediation
+TPRA-002,V-002,NorthBridge HR Services Pvt. Ltd.,20,High,Moderate,0,13,Medium,High data and regulatory exposure but standard control evidence currently available,Pending annual assessment closure
+TPRA-003,V-003,Silverline Collaboration Tools Pvt. Ltd.,13,Medium,Strong,0,8,Low,Limited sensitive-data scope and satisfactory baseline evidence,Routine monitoring
+TPRA-004,V-004,PaperTrail Office Supplies Pvt. Ltd.,5,Low,Not assessed,0,5,Low,No material information-security exposure identified,Light-touch onboarding
