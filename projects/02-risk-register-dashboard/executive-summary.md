@@ -1,39 +1,36 @@
-# Executive Summary — Simulated Cyber Risk Register
+# Executive Summary — Cyber Risk Register
 
-## Purpose
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** Q3 2026  
+**Type:** Simulated risk-management exercise
 
-This document summarizes the simulated cybersecurity risk posture of Northstar Cloud Services Pvt. Ltd. for portfolio demonstration.
+## What I built
 
-## Overall observation
+I created a 15-risk register covering common security and technology areas such as IAM, vulnerabilities, cloud, logging, third-party risk, data protection, continuity, endpoints, change management and backup.
 
-The simulated register contains 15 risks spanning identity and access, vulnerability management, cloud security, logging, third-party risk, data protection, continuity, endpoints, change management, incident response, awareness, asset management, backup, access governance and security policy.
+Each risk has an owner, due date, likelihood, impact, treatment and residual risk.
 
-The highest inherent exposures are concentrated in privileged access, vulnerability management and cloud configuration. These areas receive higher treatment priority because a successful event could affect sensitive information, production services or administrative control.
+## What stands out
 
-## Management attention
+The higher inherent risks in the sample are around privileged access, vulnerability management and cloud configuration.
 
-1. Reduce overdue critical vulnerability exposure.
-2. Complete privileged-access and user-access reviews.
-3. Address high-risk cloud configuration findings.
-4. Track critical-vendor assessments and remediation.
-5. Validate backup recovery through periodic restore tests.
-6. Improve security telemetry coverage and incident-response readiness.
+These are areas where a security issue could affect sensitive information, production systems or administrative access, so they need closer tracking.
 
-## Suggested dashboard KPIs/KRIs
+## Dashboard items
 
-- Total open risks
-- High-risk open risks
-- Risks past target date
-- Average inherent risk
-- Average residual risk
-- Treatment status by risk
+The Excel dashboard tracks things I would normally want to see during a risk review:
+
+- Open and high risks
+- Overdue items
+- Average inherent and residual risk
+- Treatment status
 - Critical vulnerabilities past SLA
 - Overdue access reviews
-- Critical vendors with overdue reassessment
-- Backup restore success rate
+- Critical vendor reassessments
+- Backup restore results
 
-## Key governance message
+## Takeaway
 
-A useful risk register should drive decisions. The objective is not to maximize the number of controls or risks recorded; it is to make material exposure visible, assign accountability and track treatment to closure.
+A risk register is useful only when it helps people decide what needs attention. The score is the starting point; the important part is the owner, treatment action and follow-up.
 
-> This is a simulated portfolio exercise. No real company, customer or production environment was assessed.
+> All risks and results in this workbook are fictional.
