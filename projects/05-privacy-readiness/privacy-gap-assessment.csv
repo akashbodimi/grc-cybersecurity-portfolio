@@ -1,0 +1,13 @@
+Control ID,Framework,Control Theme,Current State,Evidence,Gap,Risk,Priority,Status,Recommendation,Owner
+PRIV-01,DPDP,Clear privacy notice,Notice exists but analytics detail is incomplete,Notice draft,Purpose/data-category detail incomplete,Medium,High,Open,Revise notice and version control,Privacy Lead
+PRIV-02,DPDP,Consent clarity and withdrawal,Consent records exist but downstream validation is incomplete,Consent log; preference center,Propagation/evidence gap,High,High,Open,Test withdrawal end-to-end,Privacy Ops
+PRIV-03,DPDP,Correction/updating/erasure workflow,Workflow documented and sampled,Rights tracker,SLA and reporting need formalisation,Medium,Medium,In Progress,Define operating SLA and monthly metrics,Privacy Ops
+PRIV-04,DPDP,Security and processor oversight,Security baseline exists,Policies; TPRM records,Privacy-specific mapping needs improvement,Medium,Medium,Open,Add privacy requirements to TPRM,TPRM Lead
+PRIV-05,DPDP,Breach response workflow,IR plan exists,IR plan; incident records,Privacy decision tree is not explicit,High,High,Open,Add privacy breach triage/escalation,Security Lead
+PRIV-06,DPDP,Retention and deletion,Retention register is partial,Retention schedule,Two datasets lack defined lifecycle,High,High,Open,Approve schedule and automate deletion,Data Governance Lead
+PRIV-07,GDPR,Transparency,Privacy notice exists,Privacy notice,Rights/processor detail can be expanded,Medium,Medium,Open,Refresh notice for EU-facing processing,Privacy Lead
+PRIV-08,GDPR,Data subject rights operations,Requests tracked,Rights tracker,Evidence and system orchestration are partly manual,Medium,Medium,In Progress,Document workflow and evidence steps,Privacy Ops
+PRIV-09,GDPR,DPIA governance,DPIA workpaper established,DPIA,Reassessment triggers need formalisation,Medium,Medium,Open,Create DPIA intake/change-trigger checklist,Privacy Lead
+PRIV-10,GDPR,Processor/subprocessor mapping,TPRM process exists,Vendor assessment,Contract/process mapping is incomplete,Medium,Medium,Open,Map processors to processing activities,TPRM Lead
+PRIV-11,Both,Records of processing / accountability,ROPA-style register created,Data Inventory,Owner attestation and cadence not yet formalised,Low,Low,Open,Add quarterly owner attestation,Privacy Lead
+PRIV-12,Both,Privacy metrics and governance,Basic trackers available,Dashboard,No formal KPI/KRI reporting pack yet,Low,Low,Open,Create monthly privacy metrics,Privacy Ops
