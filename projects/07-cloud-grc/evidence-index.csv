@@ -1,0 +1,16 @@
+Evidence ID,Control ID,Artifact,Owner,Period,Status,Review Result
+EV-CLD-001,CLD-01,IAM Role Inventory,IAM Team,Q3 2026,Received,Supports control
+EV-CLD-002,CLD-02,Privileged Access Review,IAM Team,Q3 2026,Received with gap,Partial
+EV-CLD-003,CLD-03,VPC / Security Group Review,Network Team,Q3 2026,Received,Supports control
+EV-CLD-004,CLD-04,CloudTrail Configuration,Security Team,Q3 2026,Received,Supports control
+EV-CLD-005,CLD-05,Threat Detection Dashboard,Security Team,Q3 2026,Received,Supports control
+EV-CLD-006,CLD-06,RDS Encryption Configuration,DBA Team,Q3 2026,Received,Supports control
+EV-CLD-007,CLD-07,KMS Key Policy,Security Team,Q3 2026,Received,Supports control
+EV-CLD-008,CLD-08,Vulnerability Scan,Platform Team,Q3 2026,Received with gap,Partial
+EV-CLD-009,CLD-09,AWS Backup Job Report,Infrastructure,Q3 2026,Received,Supports control
+EV-CLD-010,CLD-10,Restore Test Report,Infrastructure,Q3 2026,Received with gap,Partial
+EV-CLD-011,CLD-11,CSPM Configuration Report,Security Team,Q3 2026,Received with gap,Partial
+EV-CLD-012,CLD-12,Cloud Incident Playbook,Security Team,Q3 2026,Received,Supports control
+EV-CLD-013,CLD-13,AWS Assurance Report,GRC,Q3 2026,Received,Supports control
+EV-CLD-014,CLD-14,Cloud Data Inventory,Data Governance,Q3 2026,Received,Supports control
+EV-CLD-015,CLD-15,Cloud Change Records,Change Manager,Q3 2026,Received,Supports control
