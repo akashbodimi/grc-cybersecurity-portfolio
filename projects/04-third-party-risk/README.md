@@ -2,38 +2,40 @@
 
 **Status:** Completed — simulated vendor assessment
 
-## Objective
+## What this project is
 
-Demonstrate a practical Third-Party Risk Management lifecycle for technology vendors, from intake and inherent-risk classification through due diligence, evidence review, findings, remediation and residual-risk decisioning.
+I created a fictional vendor assessment to practice the TPRM process from initial intake to the final risk decision.
 
-## Case Study
+The company is **Northstar Cloud Services Pvt. Ltd.** and the vendor is **BluePeak Cloud Monitoring Pvt. Ltd.** Both are fictional.
 
-The portfolio uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS company, and **BluePeak Cloud Monitoring Pvt. Ltd.**, a fictional critical technology vendor.
+## What I worked on
 
-The assessment demonstrates how vendor risk should be driven by service criticality, data sensitivity, system access, evidence quality and unresolved findings — not questionnaire responses alone.
+- Collected basic vendor and service information
+- Rated vendor criticality and inherent risk
+- Built a security questionnaire
+- Reviewed sample evidence
+- Recorded evidence gaps
+- Created vendor findings
+- Added remediation actions
+- Calculated residual risk
+- Wrote a vendor risk decision memo
 
-## Lifecycle
+## Assessment flow
 
-**Intake → Criticality → Questionnaire → Evidence Review → Risk Scoring → Findings → Remediation → Residual Risk → Approval / Exception → Ongoing Monitoring → Reassessment**
+**Vendor Intake → Risk Tiering → Due Diligence → Evidence Review → Findings → Remediation → Residual Risk → Decision**
 
-## Key skills demonstrated
+## Main case study
 
-- Third-Party Risk Management (TPRM)
-- Vendor criticality and inherent-risk tiering
-- Security questionnaires and due diligence
-- Evidence evaluation and traceability
-- Residual-risk assessment
-- Vendor findings and remediation tracking
-- Risk treatment and conditional approval
-- Ongoing monitoring and reassessment
-- Privacy, access control, vulnerability management, incident response and BCP/DR review
+The simulated vendor was rated **23/25 (Critical)** for inherent risk because it has production integration, operational dependency and access to security-related data.
 
-## Deliverables
+After considering the available evidence and open findings, the simulated residual risk was **18/25 (High)**.
 
-- **TPRM Vendor Risk Assessment — Excel:** upload `TPRM_Vendor_Risk_Assessment_Northstar.xlsx` to this folder after downloading the workbook from this chat.
+## Files
+
+- [Excel workpaper](./TPRM_Vendor_Risk_Assessment_Northstar.xlsx)
 - [TPRM Methodology](./tprm-methodology.md)
 - [Vendor Inventory](./vendor-inventory.csv)
-- [Vendor Security Questionnaire](./vendor-security-questionnaire.csv)
+- [Security Questionnaire](./vendor-security-questionnaire.csv)
 - [Evidence Review](./evidence-review.csv)
 - [Evidence Index](./evidence-index.csv)
 - [Vendor Risk Assessment](./vendor-risk-assessment.csv)
@@ -42,10 +44,8 @@ The assessment demonstrates how vendor risk should be driven by service critical
 - [Vendor Risk Decision Memo](./vendor-risk-decision-memo.md)
 - [Executive Summary](./executive-summary.md)
 
-## Portfolio Takeaway
+## Skills shown
 
-The main demonstration is the traceability chain:
+**TPRM · Vendor Due Diligence · Risk Scoring · Evidence Review · Residual Risk · Remediation · Risk Decisioning**
 
-**Vendor → Service/Data/Access → Inherent Risk → Due Diligence → Evidence → Finding → Remediation → Residual Risk → Decision**
-
-> This project is simulated portfolio work. All vendors, evidence, findings, scores and management decisions are fictional and do not represent a real client assessment.
+> All vendors, evidence, scores and decisions are fictional. This is a portfolio exercise.
