@@ -1,40 +1,40 @@
-# Executive AI Governance Summary
+# Executive Summary — AI Governance
 
-**Entity:** Northstar Cloud Services Pvt. Ltd.  
-**Review period:** Q3 2026  
-**Engagement type:** Simulated AI governance assessment
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** Q3 2026  
+**Type:** Simulated AI governance review
 
-> Fictional portfolio work; it is not legal advice, a conformity assessment or an assurance opinion.
+## What I reviewed
 
-## Scope
+I registered five AI use cases across support, security operations, HR, operations analytics and marketing.
 
-5 AI systems were catalogued across support, security operations, HR, operations analytics and marketing.
+The review covered AI risks, governance controls, impact assessment, human oversight, third-party providers, policy checks and monitoring.
 
-The assessment logged 7 AI risks, mapped 9 core governance controls, reviewed 10 evidence records and identified 6 findings.
+## Results
 
-## Key Findings
+The project contains:
+
+- 7 AI risks
+- 9 governance controls
+- 10 evidence records
+- 6 findings
+
+The findings were:
 
 - 2 High: candidate-screening impact assessment and model validation
-- 2 Medium: human oversight evidence and third-party provider monitoring
+- 2 Medium: human oversight evidence and provider change monitoring
 - 2 Low: AI policy rollout and drift-trigger testing
 
-## Governance Interpretation
+## What I noticed
 
-The simulated program has an inventory, ownership model, risk register and basic control framework. Higher-impact systems require stronger evidence before deployment approval, especially around impact assessment, validation and human oversight.
+The higher-impact use case needs stronger evidence before production approval, especially around validation, stakeholder review and human oversight.
 
-## Regulatory Context
+The same idea applies to the other AI systems: having a policy or inventory is useful, but the controls need to be checked and monitored after deployment too.
 
-The project screens use cases against the EU AI Act on a case-by-case basis. The Act has phased application dates; the current consolidated legal text should be used for an actual compliance assessment. NIST AI RMF 1.0 remains a voluntary risk-management framework and NIST is revising it.
+## Next step
 
-## Management Actions
+I would use a formal pre-release review for higher-impact AI, then keep monitoring model changes, provider changes, performance and incidents.
 
-1. Establish a governed pre-release gate for higher-impact AI.
-2. Require documented impact assessments and model evaluation.
-3. Strengthen human-oversight evidence.
-4. Add ongoing AI-provider change monitoring.
-5. Complete AI policy training and exception governance.
-6. Validate monitoring triggers after implementation.
+## Note
 
-## Traceability
-
-**AI System → Context → Risk → Control → Evidence → Finding → Remediation → Validation**
+NIST AI RMF, ISO/IEC 42001 concepts and the EU AI Act are used as reference points. This project is not a legal determination or conformity assessment.
