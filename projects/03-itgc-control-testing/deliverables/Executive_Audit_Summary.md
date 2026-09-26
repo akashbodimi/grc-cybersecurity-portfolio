@@ -1,63 +1,44 @@
-# Executive Audit Summary — ITGC Control Testing
+# Executive Summary — ITGC Control Testing
 
-**Entity:** Northstar Cloud Services Pvt. Ltd.  
-**Review period:** Q3 2026  
-**Engagement type:** Simulated ITGC assurance exercise  
-**Prepared for:** Portfolio demonstration
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** Q3 2026  
+**Type:** Simulated ITGC testing
 
-> This document is fictional and educational. It is not an audit report for a real organization and does not provide an external assurance opinion.
+## What I tested
 
-## Objective
+I tested 10 controls across:
 
-The simulated review assessed whether selected IT General Controls across access management, change management and IT operations were suitably designed and operated as expected during the review period.
+- Access management
+- Change management
+- IT operations
 
-## Scope
+The testing used both **Test of Design (ToD)** and **Test of Effectiveness (ToE)**, with sample transactions and simulated evidence.
 
-10 controls were tested across three domains:
+## Results
 
-- Access Management — AC-01 to AC-04
-- Change Management — CH-01 to CH-03
-- IT Operations — OPS-01 to OPS-03
+There were **4 findings**:
 
-Testing included Test of Design (ToD) and Test of Effectiveness (ToE), supported by simulated evidence and sampled transactions.
-
-## Executive Result
-
-The simulated environment identified **4 findings**:
-
-| Severity | Count | Primary Theme |
+| Severity | Count | Main issue |
 |---|---:|---|
 | High | 1 | Restore testing evidence |
 | Medium | 2 | Privileged access review; emergency change review |
-| Low | 1 | Access review evidence retention |
+| Low | 1 | Access-review evidence retention |
 
-**Control result:** 7 of 10 controls operated without identified exceptions in the simulated sample; 3 controls had direct ToE exceptions, with an additional evidence-retention finding noted in access review documentation.
+Seven of the ten controls did not have a direct control exception in the sample. Three controls had ToE exceptions, and there was one additional documentation/evidence finding.
 
-## Key Observations
+## What I noticed
 
-### 1. Privileged access governance
-The privileged-account review did not clearly evidence complete population coverage for two accounts. The main improvement is to reconcile the privileged account inventory to the review population before sign-off.
+The biggest issue was not that the processes were missing. In most cases, the process existed but the evidence trail or follow-up needed to be tighter.
 
-### 2. Emergency change governance
-One emergency change exceeded the simulated one-business-day retrospective review target. This points to a monitoring and escalation opportunity rather than a design gap.
+For example:
 
-### 3. Backup recoverability evidence
-One critical system did not have complete documented restore-test evidence. This is the highest-risk simulated observation because backup execution alone does not demonstrate recoverability.
+- Privileged access review did not clearly cover the complete account population.
+- One emergency change was reviewed later than the simulated target.
+- One critical system did not have complete restore-test evidence.
+- One access review approval was stored outside the normal evidence repository.
 
-### 4. Evidence retention
-One application access review had approval evidence outside the standard repository. The control activity occurred, but auditability and evidence consistency can be improved.
+## Next step
 
-## Overall Conclusion
+Remediation should be followed by evidence review and retesting before the findings are closed.
 
-Based on the simulated procedures and fictional evidence set, the selected ITGC environment is **partially effective for the purposes of this portfolio exercise**. The control framework is broadly defined, but remediation is required for privileged access review completeness, emergency change review timeliness, restore-test evidence, and evidence retention.
-
-## Recommended Management Actions
-
-1. Strengthen completeness checks for privileged-account reviews.
-2. Track emergency-change review SLAs and escalate overdue items.
-3. Maintain a system-level restore testing calendar for critical services.
-4. Standardize retention of control evidence in the approved repository.
-
-## Follow-up
-
-A follow-up test would verify remediation evidence and retest affected controls before closure. Portfolio evidence should clearly distinguish remediation implemented from remediation validated.
+> This is fictional portfolio work, not a real audit or external assurance report.
