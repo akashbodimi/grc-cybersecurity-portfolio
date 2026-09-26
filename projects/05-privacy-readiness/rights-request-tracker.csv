@@ -1,0 +1,6 @@
+Request ID,Framework,Request Type,Requester,Received Date,Identity Verified,Systems In Scope,Owner,Target Date,Status,Evidence
+RR-001,DPDP,Correction / updating,Customer,2026-09-02,Yes,CRM; support; billing,Privacy Ops,2026-09-12,Closed,Change record retained
+RR-002,GDPR,Access,EU customer,2026-09-05,Yes,CRM; analytics; support,Privacy Ops,2026-10-05,In Progress,Export preparation
+RR-003,DPDP,Erasure,Customer,2026-09-08,Yes,CRM; marketing,Privacy Ops,2026-09-20,Closed,Deletion evidence retained
+RR-004,GDPR,Rectification,EU applicant,2026-09-10,Yes,ATS; HR,HR Privacy Coordinator,2026-10-10,Open,Verification complete
+RR-005,DPDP,Consent withdrawal,Customer,2026-09-14,Yes,Marketing; analytics,Privacy Ops,2026-09-24,In Progress,Downstream suppression validation
