@@ -1,0 +1,6 @@
+AI ID,Use Case,AI Type,Business Owner,Data Classification,Business Criticality,Human Oversight,Third-Party Dependency,DPIA / Impact Assessment,AI Act Screening,Status
+AI-001,Support Copilot,Generative AI,Support Operations,Confidential,High,Required before send,Yes,Yes,Transparency assessment,Governed with gaps
+AI-002,Threat Detection Assistant,Generative AI,Security Operations,Restricted,High,Analyst review required,Yes,Yes,GPAI/provider assessment,Governed with gaps
+AI-003,Candidate Screening Assistant,ML classification/ranking,HR Systems,Restricted,High,Recruiter decision required,Yes,Yes,Potential high-risk use case,Governed with gaps
+AI-004,Demand Forecasting Model,Machine Learning,Operations Analytics,Internal,Medium,Planner review,No,No,Applicability check,Governed
+AI-005,Marketing Content Assistant,Generative AI,Marketing Operations,Internal,Low,Human review before publication,Yes,No,Transparency/content assessment,Governed with minor gap
