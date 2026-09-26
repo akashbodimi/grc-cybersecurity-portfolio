@@ -1,0 +1,9 @@
+Action ID,Source ID,Action,Owner,Priority,Target Date,Success Measure,Status,Validation Evidence
+PA-001,PRIV-01,Update privacy notice with complete processing categories and purposes.,Privacy Lead,High,2026-10-25,Approved notice maps to all scoped processing activities.,Open,Pending
+PA-002,PRIV-02,Test consent withdrawal across analytics and marketing providers.,Privacy Ops,High,2026-11-05,Withdrawal suppresses optional processing across downstream systems.,Open,Pending
+PA-003,PRIV-03,Formalise privacy-rights SLA and monthly reporting.,Privacy Ops,Medium,2026-10-20,Rights register includes target dates completion evidence and escalation.,In Progress,Process document pending
+PA-004,PRIV-05,Add privacy-breach assessment and notification decision tree to incident playbook.,Security Lead,High,2026-11-01,Playbook contains privacy triage escalation and evidence steps.,Open,Pending
+PA-005,PRIV-06,Approve retention schedule and implement lifecycle controls for analytics and vendor records.,Data Governance Lead,High,2026-11-10,Priority datasets have approved retention and deletion controls.,Open,Pending
+PA-006,PRIV-09,Create DPIA intake checklist and reassessment triggers.,Privacy Lead,Medium,2026-10-30,Material changes trigger a documented DPIA review.,Open,Pending
+PA-007,PRIV-10,Map processors and subprocessors to processing activities and contracts.,TPRM Lead,Medium,2026-11-07,All processors in Data Inventory have traceable contract evidence.,Open,Pending
+PA-008,PRIV-11,Introduce quarterly data-inventory owner attestation.,Privacy Lead,Low,2026-11-15,Owners attest completeness and material changes quarterly.,Open,Pending
