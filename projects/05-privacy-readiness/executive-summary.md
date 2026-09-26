@@ -1,46 +1,36 @@
-# Executive Privacy Readiness Summary
+# Executive Summary — Privacy Readiness
 
-**Entity:** Northstar Cloud Services Pvt. Ltd.  
-**Assessment period:** September 2026  
-**Engagement type:** Simulated privacy GRC readiness exercise
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** September 2026  
+**Type:** Simulated privacy GRC assessment
 
-> All data, processing activities, findings and management actions are fictional.
+## What I reviewed
 
-## Objective
+I mapped 10 personal-data processing activities covering customers, support, analytics, marketing, HR, recruitment, security monitoring, billing, vendors and website cookies.
 
-Demonstrate a practical privacy GRC assessment that converts processing activities into documented risks, safeguards, evidence gaps and remediation actions.
+I also created a privacy risk register, sample DPIA, rights tracker, retention schedule and gap assessment.
 
-## Scope
+## Main points
 
-10 processing activities were catalogued across customer account management, support, analytics, marketing, HR, recruitment, security monitoring, billing, vendor management and website cookies.
+The product-analytics activity was the main DPIA example. The review focused on data minimisation, optional analytics, retention and third-party processing.
 
-The assessment flagged 2 activities for DPIA analysis and identified 10 privacy risks.
+Other gaps were around:
 
-## Key Observations
+- Privacy notice detail
+- Consent withdrawal across downstream systems
+- Retention and deletion rules
+- Privacy incident handling
+- Processor/subprocessor mapping
 
-1. **Analytics minimisation and choice:** product analytics presents the highest simulated privacy risk because it combines usage data, scale and third-party processing.
-2. **Retention governance:** vendor due-diligence data and raw analytics events require explicit lifecycle rules.
-3. **Rights operations:** a basic request tracker exists, but evidence retention and cross-system fulfilment need stronger process discipline.
-4. **Privacy incident response:** the security incident process exists, but the privacy-specific triage and notification decision path needs formalisation.
-5. **Processor traceability:** vendor and subprocessor information should be mapped directly to the processing inventory.
+## What I would do next
 
-## Current Readiness
+1. Update the privacy notice.
+2. Test withdrawal and deletion workflows end to end.
+3. Approve retention periods and put lifecycle controls around them.
+4. Add a privacy-specific decision path to incident response.
+5. Keep the processing inventory linked to vendors and contracts.
+6. Revisit the DPIA when the processing changes.
 
-The simulated program has a reasonable foundation of registers and procedures, but several controls require formalisation, implementation evidence and periodic attestation.
+## Note
 
-## Priority Actions
-
-- Update privacy notice and purpose/data-category detail.
-- Test consent withdrawal end-to-end.
-- Approve and operationalise retention/deletion rules.
-- Integrate privacy decision points into incident response.
-- Establish DPIA intake and reassessment triggers.
-- Map processors/subprocessors to processing activities and contracts.
-
-## Conclusion
-
-This exercise demonstrates the traceability chain:
-
-**Processing Activity → Data/Purpose → Privacy Risk → DPIA/Control → Evidence → Gap → Remediation → Validation**
-
-It is designed to show practical privacy GRC capability rather than claim legal compliance.
+The project uses the DPDP framework and selected GDPR concepts for practice. It is not legal advice or a finding that a real company is compliant.
