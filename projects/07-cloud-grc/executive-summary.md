@@ -1,43 +1,37 @@
-# Executive Cloud GRC Assessment Summary
+# Executive Summary — Cloud GRC Assessment
 
-**Entity:** Northstar Cloud Services Pvt. Ltd.  
-**Review period:** Q3 2026  
-**Engagement type:** Simulated cloud GRC assessment
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** Q3 2026  
+**Type:** Simulated AWS cloud review
 
-> Fictional portfolio work; no production systems, credentials or client evidence are represented.
+## What I reviewed
 
-## Scope
+The assessment covered:
 
 - 12 cloud assets
-- 15 cloud GRC controls
+- 15 controls
 - 15 evidence records
-- 4 simulated findings
+- 4 findings
 
-## Key Findings
+The main areas were IAM, network security, logging, encryption, vulnerability management, backup/recovery, secure configuration, incident response and provider assurance.
 
-Three findings are High severity and one is Medium:
+## Findings
 
-1. Privileged access recertification evidence incomplete.
-2. Restore-test evidence incomplete for one critical workload.
-3. Public storage configuration exception.
-4. One critical patch item exceeded its remediation target.
+Three findings were High severity and one was Medium:
 
-## Shared Responsibility
+1. Privileged-access review evidence was incomplete.
+2. Restore testing was not fully evidenced for one critical workload.
+3. One storage configuration allowed broader access than intended.
+4. One critical patch item passed its remediation target.
 
-The assessment separates provider-side inherited controls from customer-controlled configuration, data, IAM and workload responsibilities. This prevents a provider assurance report from being treated as evidence that customer configuration is automatically compliant.
+## Shared responsibility
 
-## Conclusion
+One of the main checks was separating what AWS provides from what the customer still has to configure and manage.
 
-The simulated environment has a defined cloud GRC foundation with effective controls in logging, monitoring, encryption, network segmentation, data governance, change management and provider-assurance mapping. Remediation is required for privileged access, recovery evidence, vulnerability SLA monitoring and secure configuration.
+For this exercise, provider assurance was treated as supporting evidence for inherited controls, not as proof that customer-side settings were correct.
 
-## Management Priorities
+## Next step
 
-- Close privileged-access review exceptions.
-- Complete restore testing for critical workloads.
-- Strengthen cloud vulnerability SLA tracking.
-- Eliminate unintended public storage access and improve CSPM monitoring.
-- Revalidate affected controls after remediation.
+The affected controls should be fixed and then checked again using current configuration/evidence.
 
-## Traceability
-
-**Cloud Asset → Responsibility → Control → Evidence → Finding → Remediation → Validation**
+> All cloud assets, evidence and findings are fictional.
