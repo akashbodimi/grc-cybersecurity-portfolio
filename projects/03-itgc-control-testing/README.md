@@ -1,6 +1,6 @@
 # ITGC Control Testing
 
-**Status:** Planned — simulated audit environment
+**Status:** Completed — simulated audit environment
 
 ## Objective
 
@@ -21,6 +21,7 @@ Demonstrate basic IT General Controls testing across access management, change m
 - Restore testing
 - Job monitoring
 - Password policy
+- Segregation of Duties
 
 ## Testing concepts
 
@@ -30,9 +31,16 @@ Demonstrate basic IT General Controls testing across access management, change m
 
 ## Deliverables
 
+- [ITGC Control Testing Workpaper — Excel](./ITGC_Control_Testing_Workpaper_Northstar.xlsx)
 - ITGC control matrix
 - Sample workpapers
 - Evidence index
 - Findings log
 - Remediation tracker
 - Executive audit summary
+
+## Skills demonstrated
+
+**ITGC · Access Controls · Change Management · Backup/Operations Controls · ToD/ToE · Evidence Evaluation · Audit Sampling · Findings · Remediation**
+
+> This project is simulated portfolio work. The company, populations, samples and evidence are fictional and do not represent a real client or audit engagement.
