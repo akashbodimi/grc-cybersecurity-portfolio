@@ -1,0 +1,5 @@
+Action ID,Finding ID,Action,Owner,Priority,Target Date,Success Measure,Status,Validation
+RA-IAM-001,IAM-F-001,Enable MFA or formalize approved compensating control for backup administration.,Infrastructure Lead,High,2026-10-15,Privileged backup access is protected by MFA or approved exception.,Open,Follow-up review
+RA-IAM-002,IAM-F-002,Remove conflicting AP/payment approval role and validate role separation.,Finance Systems Owner,High,2026-10-10,No incompatible combination remains for affected user.,Open,Follow-up review
+RA-IAM-003,IAM-F-003,Implement mover-event SLA monitoring and escalation.,IAM Manager,Medium,2026-10-20,Next sample is within SLA or exception is formally approved.,Open,Follow-up testing
+RA-IAM-004,IAM-F-004,Complete access removal and attach closure evidence to review record.,CRM Owner,Medium,2026-10-05,Removal timestamp and evidence are linked to AR-010.,In Progress,Evidence validation
