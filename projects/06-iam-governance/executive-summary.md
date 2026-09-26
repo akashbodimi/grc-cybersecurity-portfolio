@@ -1,41 +1,39 @@
-# Executive IAM Governance Summary
+# Executive Summary — IAM Governance
 
-**Entity:** Northstar Cloud Services Pvt. Ltd.  
-**Review period:** Q3 2026  
-**Engagement type:** Simulated IAM governance assessment
+**Company:** Northstar Cloud Services Pvt. Ltd. (fictional)  
+**Period:** Q3 2026  
+**Type:** Simulated IAM review
 
-> Fictional portfolio work. It is not a real audit or assurance opinion.
+## What I checked
 
-## Objective
+I looked at the main IAM governance areas:
 
-Assess selected identity and access governance controls through periodic access review, JML testing, privileged-account review and SoD analysis.
+- RBAC and least privilege
+- Joiner / mover / leaver activity
+- Periodic access review
+- Privileged accounts
+- MFA
+- Segregation of Duties
 
-## Scope
+The sample included 12 user-access records, 9 JML events, 8 privileged accounts and 5 SoD conflicts.
 
-8 IAM controls were mapped. Testing included:
-- 12-user access review sample
-- 9 JML events
-- 8 privileged accounts
-- 5 SoD conflict records
-- 10 evidence records
+## Results
 
-## Key Findings
-
-Four findings were identified:
+There were **4 findings**:
 
 - 2 High: privileged MFA exception and Finance SoD conflict
-- 2 Medium: JML timeliness and access-removal validation
+- 2 Medium: JML timing and access-removal validation
 
-## Key Observations
+## What I noticed
 
-The control framework includes the expected governance components: role definitions, owner approvals, access review, privileged-access review and SoD analysis. The principal gaps are in exception closure, evidence completeness and timely lifecycle execution.
+The basic IAM structure is in place, but exception handling needs more discipline.
 
-## Conclusion
+The two main examples are a privileged account without complete MFA evidence and a Finance role combination that creates a SoD conflict.
 
-The simulated IAM environment demonstrates a defined governance foundation but requires remediation and validation for the identified exceptions. The case study emphasizes traceability:
+There was also one mover event outside the simulated target and one access-removal request that still needed closure evidence.
 
-**Identity → Role → Access → Approval → Review → Exception → Remediation → Validation**
+## Next step
 
-## Follow-up
+The fixes should be followed by another sample review. I would not close the findings only because the owner says the access was changed; I would keep the evidence showing the change and then verify it.
 
-Management should validate each remediation action before closing the associated finding and should repeat periodic access reviews using the same evidence standards.
+> All accounts, access decisions and evidence are fictional.
