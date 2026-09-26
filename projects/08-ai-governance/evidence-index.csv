@@ -1,0 +1,11 @@
+Evidence ID,Control ID,Artifact,Owner,Period,Status,Reviewer Note
+EV-AI-001,AI-GOV-01,AI Inventory,AI Governance,Q3 2026,Received,Five systems registered
+EV-AI-002,AI-GOV-02,AI Intake Form,AI Governance,Q3 2026,Received,Use-case intake demonstrated
+EV-AI-003,AI-GOV-03,Candidate Screening Impact Assessment,Privacy / HR,Q3 2026,Partial,Validation evidence incomplete
+EV-AI-004,AI-GOV-04,Model Evaluation Summary,Model Owner,Q3 2026,Missing,Metrics and thresholds not formally approved
+EV-AI-005,AI-GOV-05,Human Oversight Procedure,Business Owner,Q3 2026,Partial,Decision logging needs stronger evidence
+EV-AI-006,AI-GOV-06,AI Incident Playbook,Security / Privacy,Q3 2026,Received,Escalation path documented
+EV-AI-007,AI-GOV-07,AI Provider Review,TPRM,Q3 2026,Partial,Ongoing change monitoring incomplete
+EV-AI-008,AI-GOV-08,AI Acceptable Use Policy,AI Governance,Q3 2026,Missing,Approval/training evidence pending
+EV-AI-009,AI-GOV-09,Monitoring Plan,Model Owner,Q3 2026,Received,Reassessment triggers defined
+EV-AI-010,AI-GOV-03,Stakeholder Assessment,Privacy / HR,Q3 2026,Partial,Stakeholder mapping incomplete
