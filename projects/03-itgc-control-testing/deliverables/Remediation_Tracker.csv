@@ -1,0 +1,5 @@
+Action ID,Finding ID,Remediation Action,Owner,Priority,Target Date,Success Measure,Status,Validation Evidence
+RA-001,F-001,Reconcile privileged account inventory to quarterly review population and retain completeness checklist.,Security Administrator,High,2026-10-15,100% of privileged accounts traced to documented review sign-off.,Open,Pending follow-up testing
+RA-002,F-002,Implement emergency-change review SLA dashboard with overdue alerts and escalation.,Change Manager,High,2026-10-20,95%+ of emergency changes reviewed within one business day for next quarter.,Open,Pending follow-up testing
+RA-003,F-003,Create critical-system restore test calendar and retain restore output plus recovery sign-off.,Infrastructure Lead,Critical,2026-10-10,All critical systems have a documented restore test with successful recovery evidence.,Open,Pending follow-up testing
+RA-004,F-004,Move application access review approvals to the standard evidence repository and perform completeness checks.,Application Owner,Medium,2026-10-31,100% of sampled reviews contain approval evidence in the designated repository.,In Progress,Repository evidence to be verified
