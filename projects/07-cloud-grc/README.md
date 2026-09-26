@@ -1,38 +1,45 @@
 # Cloud GRC Assessment
 
-**Status:** Completed — simulated AWS cloud environment
+**Status:** Completed — simulated AWS environment
 
-## Objective
+## What this project is
 
-Demonstrate practical Cloud Governance, Risk and Compliance (GRC) assessment across shared responsibility, cloud inventory, IAM, network security, logging, encryption, vulnerability management, backup/recovery, secure configuration, incident response and provider assurance.
+I used a fictional AWS environment to practice cloud-focused GRC work.
 
-## Case Study
+The main thing I wanted to show here is that cloud security is shared. The cloud provider handles some parts of the environment, while the customer still has to configure and govern things like IAM, logging, network rules, workloads, data and backups.
 
-The project uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS company operating an AWS-based environment. All cloud assets, evidence and findings are simulated.
+## What I worked on
 
-## Workflow
+- Built a cloud asset register
+- Mapped provider vs customer responsibilities
+- Built a cloud control matrix
+- Reviewed IAM and privileged access
+- Reviewed network exposure and segmentation
+- Checked logging and monitoring
+- Reviewed encryption and key management
+- Looked at vulnerability and patch management
+- Reviewed backup and restore evidence
+- Logged findings and remediation actions
+- Added a simple cloud architecture diagram
 
-**Cloud Inventory → Shared Responsibility → Control Mapping → Evidence Review → Findings → Remediation → Validation → Executive Reporting**
+## Assessment flow
 
-## Key Skills Demonstrated
+**Cloud Inventory → Shared Responsibility → Controls → Evidence → Findings → Remediation → Validation**
 
-- Cloud GRC and shared-responsibility analysis
-- AWS security and compliance governance
-- Cloud asset inventory and ownership
-- IAM / privileged access governance
-- Network segmentation and exposure review
-- Cloud logging and monitoring
-- Encryption and key management
-- Vulnerability and patch governance
-- Backup / recovery evidence
-- CSPM / secure configuration review
-- Provider assurance and inherited controls
-- Findings and remediation tracking
-- Executive reporting
+## Key results
 
-## Deliverables
+The simulation covers **12 cloud assets**, **15 controls** and **4 findings**.
 
-- **[Cloud GRC Assessment — Excel](./Cloud_GRC_Assessment_Northstar.xlsx)** — upload the workbook from this chat into this folder
+The main findings were around:
+
+- Privileged-access review evidence
+- Restore-test evidence
+- Vulnerability remediation timing
+- Storage configuration
+
+## Files
+
+- [Excel workpaper](./Cloud_GRC_Assessment_Northstar.xlsx)
 - [Cloud GRC Methodology](./cloud-grc-methodology.md)
 - [Shared Responsibility Matrix](./shared-responsibility-matrix.csv)
 - [Cloud Asset Register](./cloud-asset-register.csv)
@@ -40,12 +47,12 @@ The project uses **Northstar Cloud Services Pvt. Ltd.**, a fictional SaaS compan
 - [Evidence Index](./evidence-index.csv)
 - [Findings Log](./findings-log.csv)
 - [Remediation Tracker](./remediation-tracker.csv)
-- [Simulated Cloud Architecture](./cloud-architecture.md)
+- [Cloud Architecture](./cloud-architecture.md)
 - [Executive Summary](./executive-summary.md)
-- [Reference Sources](./sources.md)
+- [Sources](./sources.md)
 
-## Traceability
+## Skills shown
 
-**Cloud Asset → Responsibility → Control → Evidence → Finding → Remediation → Validation**
+**Cloud GRC · AWS · Shared Responsibility · IAM · Network Security · Logging · Encryption · Vulnerability Management · Backup/Recovery · CSPM · Remediation**
 
-> This project is simulated portfolio work. It does not represent production cloud administration, a client audit, certification or an assurance opinion.
+> All cloud assets, evidence and findings are fictional. This is a portfolio exercise, not production cloud administration.
